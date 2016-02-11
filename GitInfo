@@ -1,0 +1,43 @@
+#!/bin/bash
+
+
+# Configure commands:
+git config --global user.name "Sykess"
+git config --global user.email "Sykess@users.noreply.github.com"
+git config --global color.ui auto # Enables colorization of command line output I guess
+
+# Make changes:
+git status                    # Lists new or modified files to be committed
+git diff                      # Shows differences not yet staged
+git add [file]                # Snapshots file in preparation for versioning
+git diff --staged             # Shows differences between staging and the last file version
+git reset [file]              # Unstages file, but preserves contents
+git commit -m "Description"   # Records snapshot permanently in version history
+
+# To set Remote URL so it knows where to commit to and who to authenticate:
+git remote set-url origin https://Sykess@github.com/Sykess/RCfiles.git
+
+# Synchronization steps:
+git push origin master        # Uploads all local branch commits to Github (really git push [alias] [branch])
+git fetch [bookmark]          # Downloads all history from the repo bookmark
+git merge [bookmark]/[branch] # Combines bookmark's branch into current local branch
+git pull                      # Downloads bookmark history and incorporates changes
+
+# Other useful stuff:
+git init [project-name]       # Creates new local repo with project-name
+git clone [url]               # Downloads project and its entire version history
+git branch                    # Lists all local branches
+git branch [branch-name]      # Creates new branch-name
+git checkout [branch-name]    # Switches to the specified branch and updates the working directory
+git merge [branch]            # Combines the specified branch's history into the current branch
+git branch -d [branch-name]   # Deletes the specified branch
+git rm [file]                 # Deletes file from working dir and stages deletion
+git rm --cached [file]        # Removes file from vesrion control but preserves locally
+git mv [original] [rename]    # Changes name and prepares for commit
+git log                       # Version history for current branch
+git reset [commit]            # Undoes all commits after [commit], preserving changes locally
+git reset --hard [commit]     # Discards all history and changes back to the specified commit
+
+
+
+
