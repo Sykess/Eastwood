@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<users>
+    <user id="1000">
+        <name>John Smith</name>
+        <userid>jsmith</userid>
+    </user>
+    <user id="2000">
+        <name>Jane Edwards</name>
+        <userid>jedwards</userid>
+    </user>
+    <user id="3000">
+        <name>Tom Jones</name>
+        <userid>tjones</userid>
+    </user>
+</users>

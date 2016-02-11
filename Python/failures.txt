@@ -1,0 +1,6 @@
+/home/nate/me
+/home/second/blah
+failures/more
+/last/one
+/home/nate/boo/you
+/home/second/boo/ya

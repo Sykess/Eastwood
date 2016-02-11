@@ -1,0 +1,913 @@
+Started by user anonymous
+Building in workspace /home/nathan.caron/.jenkins/jobs/Compiling/workspace
+[workspace] $ /bin/bash /tmp/hudson9036604028188355959.sh
+Synergy CLI starting...
+IBM Rational Synergy 7.1 3610
+(c) Copyright IBM Corporation 1985, 2009.  All Rights Reserved.
+
+IBM, the IBM logo, ibm.com, Rational, DOORS, Rhapsody, System Architect, 
+and Tau are trademarks or registered trademarks of International Business 
+Machines Corporation in the United States, other countries, or both. 
+Microsoft and Windows are trademarks of Microsoft Corporation in the 
+United States, other countries, or both.  UNIX is a registered trademark 
+of The Open Group in the United States and other countries.  Java and all 
+Java-based trademarks and logos are trademarks of Sun Microsystems, Inc. 
+in the United States, other countries, or both.  Other product and service 
+names might be trademarks of IBM or other companies.  A current list of 
+IBM trademarks is available on the Web at www.ibm.com/legal/copytrade.shtml.
+
+U.S. Government Users Restricted Rights:  Use, duplication or disclosure 
+restricted by GSA ADP Schedule Contract with IBM Corp.  
+
+IBM Rational Synergy address is ti14-caron.wcs.gd-ais.com:44114:10.28.230.123
+
+Starting update process...
+
+Updating project 'deps=nathan.caron:project:WCSU#1' from object version 'deps=nathan.caron:project:WCSU#1'...
+Refreshing baseline and tasks for project grouping 'My deps/TI14APB15 Collaborative Development Projects'.
+Refreshing baseline and tasks.
+Replacing tasks in folder WCSU#183
+  Contents of folder WCSU#183 have not changed.
+Replacing tasks in folder WCSU#217
+  Contents of folder WCSU#217 have not changed.
+Updating 'deps=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project deps=nathan.caron.
+Update for 'deps=nathan.caron:project:WCSU#1' complete with 0 out of 13 objects replaced.
+
+Updating project 'SwftsInterface=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'SwftsInterface=nathan.caron'.
+Update for 'SwftsInterface=nathan.caron:project:WCSU#1' complete with 0 out of 23 objects replaced.
+
+Updating project 'SwftsDataModel=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'SwftsDataModel=nathan.caron'.
+Update for 'SwftsDataModel=nathan.caron:project:WCSU#1' complete with 0 out of 83 objects replaced.
+
+Updating project 'OseData=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'OseData=nathan.caron'.
+Update for 'OseData=nathan.caron:project:WCSU#1' complete with 0 out of 10 objects replaced.
+
+Updating project 'OperationSequence=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'OperationSequence=nathan.caron'.
+Update for 'OperationSequence=nathan.caron:project:WCSU#1' complete with 0 out of 17 objects replaced.
+
+Updating project 'DataModelUtilities=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'DataModelUtilities=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project DataModelUtilities=nathan.caron.
+Update for 'DataModelUtilities=nathan.caron:project:WCSU#1' complete with 0 out of 14 objects replaced.
+
+Updating project 'DisplayCommon=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'DisplayCommon=nathan.caron'.
+Replaced 0 object(s), out of 520 examined, in project DisplayCommon=nathan.caron.
+Update for 'DisplayCommon=nathan.caron:project:WCSU#1' complete with 0 out of 727 objects replaced.
+
+Updating project 'BaseApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'BaseApp=nathan.caron'.
+Update for 'BaseApp=nathan.caron:project:WCSU#1' complete with 0 out of 66 objects replaced.
+
+Updating project 'DataModel=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'DataModel=nathan.caron'.
+Update for 'DataModel=nathan.caron:project:WCSU#1' complete with 0 out of 14 objects replaced.
+
+Updating project 'Common=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'Common=nathan.caron'.
+Update for 'Common=nathan.caron:project:WCSU#1' complete with 0 out of 36 objects replaced.
+
+Updating project 'SymbolGenerator=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'SymbolGenerator=nathan.caron'.
+Update for 'SymbolGenerator=nathan.caron:project:WCSU#1' complete with 0 out of 16 objects replaced.
+
+Update complete.
+
+Starting update process...
+
+Updating project 'proj=nathan.caron:project:WCSU#1' from object version 'proj=nathan.caron:project:WCSU#1'...
+Refreshing baseline and tasks.
+Refreshing baseline and tasks for project grouping 'My proj/TI14APB15 Collaborative Development Projects'.
+Replacing tasks in folder WCSU#186
+  Contents of folder WCSU#186 have not changed.
+Replacing tasks in folder WCSU#218
+  Contents of folder WCSU#218 have not changed.
+Updating 'proj=nathan.caron'.
+Update for 'proj=nathan.caron:project:WCSU#1' complete with 0 out of 5 objects replaced.
+
+Updating project 'deploy=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'deploy=nathan.caron'.
+Update for 'deploy=nathan.caron:project:WCSU#1' complete with 0 out of 5 objects replaced.
+
+Updating project 'os_rhel_66_x64=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'os_rhel_66_x64=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project os_rhel_66_x64=nathan.caron.
+Update for 'os_rhel_66_x64=nathan.caron:project:WCSU#1' complete with 0 out of 786 objects replaced.
+
+Updating project 'passwords.unclass=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'passwords.unclass=nathan.caron'.
+Update for 'passwords.unclass=nathan.caron:project:WCSU#1' complete with 0 out of 12 objects replaced.
+
+Updating project 'overlays=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'overlays=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project overlays=nathan.caron.
+Update for 'overlays=nathan.caron:project:WCSU#1' complete with 0 out of 274 objects replaced.
+
+Updating project 'makeks=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'makeks=nathan.caron'.
+Update for 'makeks=nathan.caron:project:WCSU#1' complete with 0 out of 5 objects replaced.
+
+Updating project 'WCS=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'WCS=nathan.caron'.
+Update for 'WCS=nathan.caron:project:WCSU#1' complete with 0 out of 16 objects replaced.
+
+Updating project 'Examples=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'Examples=nathan.caron'.
+Update for 'Examples=nathan.caron:project:WCSU#1' complete with 0 out of 3 objects replaced.
+
+Updating project 'BaseAppExamples=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'BaseAppExamples=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project BaseAppExamples=nathan.caron.
+Update for 'BaseAppExamples=nathan.caron:project:WCSU#1' complete with 0 out of 49 objects replaced.
+Skipping 'DataModel=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+Skipping 'Common=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+Skipping 'BaseApp=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+Skipping 'SwftsDataModel=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+
+Updating project 'WCWP=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'WCWP=nathan.caron'.
+Update for 'WCWP=nathan.caron:project:WCSU#1' complete with 0 out of 9 objects replaced.
+
+Updating project 'AdcapDisplay=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'AdcapDisplay=nathan.caron'.
+Replaced 0 object(s), out of 390 examined, in project AdcapDisplay=nathan.caron.
+Update for 'AdcapDisplay=nathan.caron:project:WCSU#1' complete with 0 out of 752 objects replaced.
+
+Updating project 'AdcapDisplayApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'AdcapDisplayApp=nathan.caron'.
+Update for 'AdcapDisplayApp=nathan.caron:project:WCSU#1' complete with 0 out of 66 objects replaced.
+
+Updating project 'AlignmentController=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'AlignmentController=nathan.caron'.
+Update for 'AlignmentController=nathan.caron:project:WCSU#1' complete with 0 out of 11 objects replaced.
+
+Updating project 'AlignmentControllerApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'AlignmentControllerApp=nathan.caron'.
+Update for 'AlignmentControllerApp=nathan.caron:project:WCSU#1' complete with 0 out of 39 objects replaced.
+Skipping 'OseData=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+Skipping 'DataModelUtilities=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+
+Updating project 'WeaponSoftwareController=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'WeaponSoftwareController=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project WeaponSoftwareController=nathan.caron.
+Update for 'WeaponSoftwareController=nathan.caron:project:WCSU#1' complete with 0 out of 10 objects replaced.
+
+Updating project 'WeaponSoftwareControllerApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'WeaponSoftwareControllerApp=nathan.caron'.
+Update for 'WeaponSoftwareControllerApp=nathan.caron:project:WCSU#1' complete with 0 out of 22 objects replaced.
+
+Updating project 'WeaponPlanningDisplay=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'WeaponPlanningDisplay=nathan.caron'.
+Update for 'WeaponPlanningDisplay=nathan.caron:project:WCSU#1' complete with 0 out of 13 objects replaced.
+
+Updating project 'WeaponPlanningDisplayApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'WeaponPlanningDisplayApp=nathan.caron'.
+Replaced 0 object(s), out of 340 examined, in project WeaponPlanningDisplayApp=nathan.caron.
+Update for 'WeaponPlanningDisplayApp=nathan.caron:project:WCSU#1' complete with 0 out of 377 objects replaced.
+Skipping 'OperationSequence=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+Skipping 'DisplayCommon=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+
+Updating project 'EngagementPlanner=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'EngagementPlanner=nathan.caron'.
+Replaced 0 object(s), out of 670 examined, in project EngagementPlanner=nathan.caron.
+Update for 'EngagementPlanner=nathan.caron:project:WCSU#1' complete with 0 out of 735 objects replaced.
+
+Updating project 'EngagementPlannerCommon=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'EngagementPlannerCommon=nathan.caron'.
+Update for 'EngagementPlannerCommon=nathan.caron:project:WCSU#1' complete with 0 out of 16 objects replaced.
+
+Updating project 'EngagementPlannerTlamPlugin=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'EngagementPlannerTlamPlugin=nathan.caron'.
+Update for 'EngagementPlannerTlamPlugin=nathan.caron:project:WCSU#1' complete with 0 out of 32 objects replaced.
+
+Updating project 'EngagementPlannerApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'EngagementPlannerApp=nathan.caron'.
+Update for 'EngagementPlannerApp=nathan.caron:project:WCSU#1' complete with 0 out of 25 objects replaced.
+
+Updating project 'TacticController=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'TacticController=nathan.caron'.
+Update for 'TacticController=nathan.caron:project:WCSU#1' complete with 0 out of 12 objects replaced.
+
+Updating project 'TacticControllerCommon=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'TacticControllerCommon=nathan.caron'.
+Update for 'TacticControllerCommon=nathan.caron:project:WCSU#1' complete with 0 out of 16 objects replaced.
+
+Updating project 'TacticControllerTlamPlugin=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'TacticControllerTlamPlugin=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project TacticControllerTlamPlugin=nathan.caron.
+Update for 'TacticControllerTlamPlugin=nathan.caron:project:WCSU#1' complete with 0 out of 33 objects replaced.
+
+Updating project 'TacticControllerApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'TacticControllerApp=nathan.caron'.
+Update for 'TacticControllerApp=nathan.caron:project:WCSU#1' complete with 0 out of 37 objects replaced.
+Skipping 'BallisticAlgorithms=ENGR_TI14_APB15_20150302_1'.  You do not have permission to modify this project.
+
+Updating project 'EngagementManager=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'EngagementManager=nathan.caron'.
+Update for 'EngagementManager=nathan.caron:project:WCSU#1' complete with 0 out of 12 objects replaced.
+
+Updating project 'EngagementManagerCommon=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'EngagementManagerCommon=nathan.caron'.
+Update for 'EngagementManagerCommon=nathan.caron:project:WCSU#1' complete with 0 out of 9 objects replaced.
+
+Updating project 'EngagementManagerTlamPlugin=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'EngagementManagerTlamPlugin=nathan.caron'.
+Update for 'EngagementManagerTlamPlugin=nathan.caron:project:WCSU#1' complete with 0 out of 11 objects replaced.
+
+Updating project 'EngagementManagerApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'EngagementManagerApp=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project EngagementManagerApp=nathan.caron.
+Update for 'EngagementManagerApp=nathan.caron:project:WCSU#1' complete with 0 out of 35 objects replaced.
+
+Updating project 'WCSS=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'WCSS=nathan.caron'.
+Update for 'WCSS=nathan.caron:project:WCSU#1' complete with 0 out of 8 objects replaced.
+
+Updating project 'ContactManager=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'ContactManager=nathan.caron'.
+Update for 'ContactManager=nathan.caron:project:WCSU#1' complete with 0 out of 9 objects replaced.
+
+Updating project 'ContactManagerApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'ContactManagerApp=nathan.caron'.
+Update for 'ContactManagerApp=nathan.caron:project:WCSU#1' complete with 0 out of 5 objects replaced.
+
+Updating project 'DrawingController=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'DrawingController=nathan.caron'.
+Update for 'DrawingController=nathan.caron:project:WCSU#1' complete with 0 out of 14 objects replaced.
+
+Updating project 'DrawingControllerCommon=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'DrawingControllerCommon=nathan.caron'.
+Update for 'DrawingControllerCommon=nathan.caron:project:WCSU#1' complete with 0 out of 10 objects replaced.
+
+Updating project 'DrawingControllerAdcapPlugin=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'DrawingControllerAdcapPlugin=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project DrawingControllerAdcapPlugin=nathan.caron.
+Update for 'DrawingControllerAdcapPlugin=nathan.caron:project:WCSU#1' complete with 0 out of 13 objects replaced.
+
+Updating project 'DrawingControllerTlamPlugin=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'DrawingControllerTlamPlugin=nathan.caron'.
+Update for 'DrawingControllerTlamPlugin=nathan.caron:project:WCSU#1' complete with 0 out of 5 objects replaced.
+
+Updating project 'DrawingControllerApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'DrawingControllerApp=nathan.caron'.
+Update for 'DrawingControllerApp=nathan.caron:project:WCSU#1' complete with 0 out of 23 objects replaced.
+
+Updating project 'DrawingControllerHarpoonPlugin=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'DrawingControllerHarpoonPlugin=nathan.caron'.
+Update for 'DrawingControllerHarpoonPlugin=nathan.caron:project:WCSU#1' complete with 0 out of 13 objects replaced.
+
+Updating project 'DrawingControllerCountermeasurePlugin=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'DrawingControllerCountermeasurePlugin=nathan.caron'.
+Update for 'DrawingControllerCountermeasurePlugin=nathan.caron:project:WCSU#1' complete with 0 out of 13 objects replaced.
+
+Updating project 'PlatformConfigurationAdaptor=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'PlatformConfigurationAdaptor=nathan.caron'.
+Update for 'PlatformConfigurationAdaptor=nathan.caron:project:WCSU#1' complete with 0 out of 9 objects replaced.
+
+Updating project 'PlatformConfigurationAdaptorApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'PlatformConfigurationAdaptorApp=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project PlatformConfigurationAdaptorApp=nathan.caron.
+Update for 'PlatformConfigurationAdaptorApp=nathan.caron:project:WCSU#1' complete with 0 out of 47 objects replaced.
+
+Updating project 'SystemStateManager=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'SystemStateManager=nathan.caron'.
+Update for 'SystemStateManager=nathan.caron:project:WCSU#1' complete with 0 out of 10 objects replaced.
+
+Updating project 'SystemStateManagerApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'SystemStateManagerApp=nathan.caron'.
+Update for 'SystemStateManagerApp=nathan.caron:project:WCSU#1' complete with 0 out of 17 objects replaced.
+Skipping 'SwftsInterface=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+
+Updating project 'AuresAdaptor=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'AuresAdaptor=nathan.caron'.
+Update for 'AuresAdaptor=nathan.caron:project:WCSU#1' complete with 0 out of 10 objects replaced.
+
+Updating project 'AuresAdaptorApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'AuresAdaptorApp=nathan.caron'.
+Update for 'AuresAdaptorApp=nathan.caron:project:WCSU#1' complete with 0 out of 22 objects replaced.
+
+Updating project 'AlertManager=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'AlertManager=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project AlertManager=nathan.caron.
+Update for 'AlertManager=nathan.caron:project:WCSU#1' complete with 0 out of 10 objects replaced.
+
+Updating project 'AlertManagerApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'AlertManagerApp=nathan.caron'.
+Update for 'AlertManagerApp=nathan.caron:project:WCSU#1' complete with 0 out of 27 objects replaced.
+
+Updating project 'WCSM=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'WCSM=nathan.caron'.
+Update for 'WCSM=nathan.caron:project:WCSU#1' complete with 0 out of 4 objects replaced.
+
+Updating project 'InventoryDisplay=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InventoryDisplay=nathan.caron'.
+Update for 'InventoryDisplay=nathan.caron:project:WCSU#1' complete with 0 out of 10 objects replaced.
+
+Updating project 'InventoryDisplayApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InventoryDisplayApp=nathan.caron'.
+Update for 'InventoryDisplayApp=nathan.caron:project:WCSU#1' complete with 0 out of 74 objects replaced.
+
+Updating project 'InventoryManager=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InventoryManager=nathan.caron'.
+Update for 'InventoryManager=nathan.caron:project:WCSU#1' complete with 0 out of 10 objects replaced.
+
+Updating project 'InventoryManagerApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InventoryManagerApp=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project InventoryManagerApp=nathan.caron.
+Update for 'InventoryManagerApp=nathan.caron:project:WCSU#1' complete with 0 out of 39 objects replaced.
+
+Updating project 'WCLM=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'WCLM=nathan.caron'.
+Update for 'WCLM=nathan.caron:project:WCSU#1' complete with 0 out of 4 objects replaced.
+
+Updating project 'InterlocksController=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InterlocksController=nathan.caron'.
+Update for 'InterlocksController=nathan.caron:project:WCSU#1' complete with 0 out of 17 objects replaced.
+
+Updating project 'InterlocksControllerCwlPlugin=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InterlocksControllerCwlPlugin=nathan.caron'.
+Update for 'InterlocksControllerCwlPlugin=nathan.caron:project:WCSU#1' complete with 0 out of 8 objects replaced.
+
+Updating project 'InterlocksControllerMicPlugin=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InterlocksControllerMicPlugin=nathan.caron'.
+Update for 'InterlocksControllerMicPlugin=nathan.caron:project:WCSU#1' complete with 0 out of 8 objects replaced.
+
+Updating project 'InterlocksControllerWlsPlugin=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InterlocksControllerWlsPlugin=nathan.caron'.
+Update for 'InterlocksControllerWlsPlugin=nathan.caron:project:WCSU#1' complete with 0 out of 8 objects replaced.
+
+Updating project 'InterlocksControllerWdcPlugin=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InterlocksControllerWdcPlugin=nathan.caron'.
+Update for 'InterlocksControllerWdcPlugin=nathan.caron:project:WCSU#1' complete with 0 out of 8 objects replaced.
+
+Updating project 'InterlocksControllerTlamPlugin=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InterlocksControllerTlamPlugin=nathan.caron'.
+Update for 'InterlocksControllerTlamPlugin=nathan.caron:project:WCSU#1' complete with 0 out of 8 objects replaced.
+
+Updating project 'InterlocksControllerCommon=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InterlocksControllerCommon=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project InterlocksControllerCommon=nathan.caron.
+Update for 'InterlocksControllerCommon=nathan.caron:project:WCSU#1' complete with 0 out of 11 objects replaced.
+
+Updating project 'InterlocksControllerApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InterlocksControllerApp=nathan.caron'.
+Update for 'InterlocksControllerApp=nathan.caron:project:WCSU#1' complete with 0 out of 28 objects replaced.
+
+Updating project 'InterlocksControllerOpSequence=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'InterlocksControllerOpSequence=nathan.caron'.
+Update for 'InterlocksControllerOpSequence=nathan.caron:project:WCSU#1' complete with 0 out of 31 objects replaced.
+
+Updating project 'SequenceController=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'SequenceController=nathan.caron'.
+Update for 'SequenceController=nathan.caron:project:WCSU#1' complete with 0 out of 9 objects replaced.
+
+Updating project 'SequenceControllerApp=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'SequenceControllerApp=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project SequenceControllerApp=nathan.caron.
+Update for 'SequenceControllerApp=nathan.caron:project:WCSU#1' complete with 0 out of 27 objects replaced.
+
+Updating project 'COTS=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'COTS=nathan.caron'.
+Update for 'COTS=nathan.caron:project:WCSU#1' complete with 0 out of 20 objects replaced.
+Skipping 'googlemock=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+Skipping 'googletest=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+
+Updating project 'SwftsCommonSymbology=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'SwftsCommonSymbology=nathan.caron'.
+Update for 'SwftsCommonSymbology=nathan.caron:project:WCSU#1' complete with 0 out of 203 objects replaced.
+
+Updating project 'SwftsCommonColors=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'SwftsCommonColors=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project SwftsCommonColors=nathan.caron.
+Update for 'SwftsCommonColors=nathan.caron:project:WCSU#1' complete with 0 out of 25 objects replaced.
+
+Updating project 'java=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'java=nathan.caron'.
+Replaced 0 object(s), out of 450 examined, in project java=nathan.caron.
+Replaced 0 object(s), out of 1400 examined, in project java=nathan.caron.
+Update for 'java=nathan.caron:project:WCSU#1' complete with 0 out of 1680 objects replaced.
+
+Updating project 'openssl=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'openssl=nathan.caron'.
+Replaced 0 object(s), out of 340 examined, in project openssl=nathan.caron.
+Update for 'openssl=nathan.caron:project:WCSU#1' complete with 0 out of 1177 objects replaced.
+
+Updating project 'less=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'less=nathan.caron'.
+Replaced 0 object(s), out of 20 examined, in project less=nathan.caron.
+Update for 'less=nathan.caron:project:WCSU#1' complete with 0 out of 128 objects replaced.
+
+Updating project 'openmotif=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'openmotif=nathan.caron'.
+Update for 'openmotif=nathan.caron:project:WCSU#1' complete with 0 out of 5 objects replaced.
+
+Updating project 'fob=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'fob=nathan.caron'.
+Update for 'fob=nathan.caron:project:WCSU#1' complete with 0 out of 1 objects replaced.
+
+Updating project 'vmedriver=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'vmedriver=nathan.caron'.
+Update for 'vmedriver=nathan.caron:project:WCSU#1' complete with 0 out of 1 objects replaced.
+
+Updating project 'fping=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'fping=nathan.caron'.
+Update for 'fping=nathan.caron:project:WCSU#1' complete with 0 out of 9 objects replaced.
+
+Updating project 'sabtech=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'sabtech=nathan.caron'.
+Replaced 0 object(s), out of 120 examined, in project sabtech=nathan.caron.
+Update for 'sabtech=nathan.caron:project:WCSU#1' complete with 0 out of 137 objects replaced.
+
+Updating project 'ldapc++=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'ldapc++=nathan.caron'.
+Update for 'ldapc++=nathan.caron:project:WCSU#1' complete with 0 out of 50 objects replaced.
+
+Updating project 'log4cxx=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'log4cxx=nathan.caron'.
+Replaced 0 object(s), out of 460 examined, in project log4cxx=nathan.caron.
+Update for 'log4cxx=nathan.caron:project:WCSU#1' complete with 0 out of 1050 objects replaced.
+
+Updating project 'protobuf=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'protobuf=nathan.caron'.
+Update for 'protobuf=nathan.caron:project:WCSU#1' complete with 0 out of 102 objects replaced.
+
+Updating project 'qpid=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'qpid=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project qpid=nathan.caron.
+Update for 'qpid=nathan.caron:project:WCSU#1' complete with 0 out of 662 objects replaced.
+
+Updating project 'qt=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'qt=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 20 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 700 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 1450 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 2230 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 3040 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 3850 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 4670 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 5400 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 6130 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 6810 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 7420 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 8040 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 8680 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 9320 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 9970 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 10640 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 11380 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 12060 examined, in project qt=nathan.caron.
+Replaced 0 object(s), out of 12780 examined, in project qt=nathan.caron.
+Update for 'qt=nathan.caron:project:WCSU#1' complete with 0 out of 13548 objects replaced.
+
+Updating project 'boost=nathan.caron:project:WCSU#1', reselecting root object version...
+Updating 'boost=nathan.caron'.
+Replaced 0 object(s), out of 10 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 50 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 870 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 1640 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 2380 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 3030 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 3840 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 4650 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 5370 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 6130 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 6960 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 7780 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 8550 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 9270 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 10020 examined, in project boost=nathan.caron.
+Replaced 0 object(s), out of 10830 examined, in project boost=nathan.caron.
+Update for 'boost=nathan.caron:project:WCSU#1' complete with 0 out of 10918 objects replaced.
+Skipping 'ntds=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+Skipping 'support=ENGR_TI14_APB15_20150824'.  You do not have permission to modify this project.
+
+Update complete.
+IBM Rational Synergy CLI session exiting.
+/home/nathan.caron/ccm_wa/wcsu/deps=nathan.caron/deps/SymbolGenerator/cpp/PixmapTracker.cpp:18:34: fatal error: SymbologyParams_t.pb.h: No such file or directory
+ #include "SymbologyParams_t.pb.h"
+                                  ^
+compilation terminated.
+make[1]: *** [/home/nathan.caron/ccm_wa/wcsu/deps=nathan.caron/deps/SymbolGenerator/obj/PixmapTracker.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+/home/nathan.caron/ccm_wa/wcsu/deps=nathan.caron/deps/SymbolGenerator/cpp/SymbologyAbstraction.cpp:21:29: fatal error: api/ContactIcon.h: No such file or directory
+ #include "api/ContactIcon.h"
+                             ^
+compilation terminated.
+make[1]: *** [/home/nathan.caron/ccm_wa/wcsu/deps=nathan.caron/deps/SymbolGenerator/obj/SymbologyAbstraction.o] Error 1
+make: *** [/home/nathan.caron/ccm_wa/wcsu/deps=nathan.caron/deps/SymbolGenerator/] Error 2
+Failure in: /home/nathan.caron/ccm_wa/wcsu/deps=nathan.caron/deps
+/home/nathan.caron/ccm_wa/wcsu/deps=nathan.caron/deps/SymbolGenerator/cpp/PixmapTracker.cpp:18:34: fatal error: SymbologyParams_t.pb.h: No such file or directory
+ #include "SymbologyParams_t.pb.h"
+                                  ^
+compilation terminated.
+make: *** [/home/nathan.caron/ccm_wa/wcsu/deps=nathan.caron/deps/SymbolGenerator/obj/PixmapTracker.o] Error 1
+make: *** Waiting for unfinished jobs....
+/home/nathan.caron/ccm_wa/wcsu/deps=nathan.caron/deps/SymbolGenerator/cpp/SymbologyAbstraction.cpp:21:29: fatal error: api/ContactIcon.h: No such file or directory
+ #include "api/ContactIcon.h"
+                             ^
+compilation terminated.
+make: *** [/home/nathan.caron/ccm_wa/wcsu/deps=nathan.caron/deps/SymbolGenerator/obj/SymbologyAbstraction.o] Error 1
+Failure in: /home/nathan.caron/ccm_wa/wcsu/deps=nathan.caron/deps/SymbolGenerator
+/usr/lib/../lib64/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[3]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/ContactManager/ContactManagerApp/dist/ContactManagerApp] Error 1
+make[2]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/ContactManager/ContactManagerApp/] Error 2
+make[1]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/ContactManager/] Error 2
+make: *** [WCSS/] Error 2
+make: *** Waiting for unfinished jobs....
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS
+../wcs.mk:707: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/Examples/deps/BaseApp/user_impl.mk: No such file or directory
+make[2]: *** No rule to make target `/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/Examples/deps/BaseApp/user_impl.mk'.  Stop.
+make[1]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/Examples/BaseAppExamples/BaseAppDriver/] Error 2
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/Examples/BaseAppExamples/] Error 2
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/Examples
+/usr/lib/../lib64/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/ContactManager/ContactManagerApp/dist/ContactManagerApp] Error 1
+make[1]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/ContactManager/ContactManagerApp/] Error 2
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/ContactManager/] Error 2
+make: *** Waiting for unfinished jobs....
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:28:0:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.h:66:30: error: ‘DCPluginInterface’ does not name a type
+     virtual void init( const DCPluginInterface plugin_int );
+                              ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.h:66:48: error: ISO C++ forbids declaration of ‘plugin_int’ with no type [-fpermissive]
+     virtual void init( const DCPluginInterface plugin_int );
+                                                ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.h:108:5: error: ‘DrawingControllerData’ does not name a type
+     DrawingControllerData *m_drawing_cont_data;
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.h:113:11: error: ‘DCPluginInterface’ does not name a type
+     const DCPluginInterface *m_plugin_int;
+           ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:48:49: error: ‘DCPluginInterface’ does not name a type
+ void ADCAPPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+                                                 ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:48:67: error: ISO C++ forbids declaration of ‘plugin_int’ with no type [-fpermissive]
+ void ADCAPPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+                                                                   ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:48:6: error: unused parameter ‘plugin_int’ [-Werror=unused-parameter]
+ void ADCAPPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+      ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:106:12: error: ‘DCPluginInterface’ does not name a type
+ extern "C" DCPluginInterface * create( void ){
+            ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:121:26: error: variable or field ‘destroy’ declared void
+ extern "C" void destroy( DCPluginInterface* p ){
+                          ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:121:26: error: ‘DCPluginInterface’ was not declared in this scope
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:121:45: error: ‘p’ was not declared in this scope
+ extern "C" void destroy( DCPluginInterface* p ){
+                                             ^
+cc1plus: all warnings being treated as errors
+make[1]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/obj/ADCAPPluginFrameworkInterface.o] Error 1
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/] Error 2
+make: *** Waiting for unfinished jobs....
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:28:0:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.h:77:30: error: ‘DCPluginInterface’ does not name a type
+     virtual void init( const DCPluginInterface plugin_int );
+                              ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.h:77:48: error: ISO C++ forbids declaration of ‘plugin_int’ with no type [-fpermissive]
+     virtual void init( const DCPluginInterface plugin_int );
+                                                ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.h:121:5: error: ‘DrawingControllerData’ does not name a type
+     DrawingControllerData *m_drawing_cont_data;
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.h:126:11: error: ‘DCPluginInterface’ does not name a type
+     const DCPluginInterface *m_plugin_int;
+           ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:52:46: error: ‘DCPluginInterface’ does not name a type
+ void CMPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+                                              ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:52:64: error: ISO C++ forbids declaration of ‘plugin_int’ with no type [-fpermissive]
+ void CMPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+                                                                ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:52:6: error: unused parameter ‘plugin_int’ [-Werror=unused-parameter]
+ void CMPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+      ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:125:12: error: ‘DCPluginInterface’ does not name a type
+ extern "C" DCPluginInterface * create( void ){
+            ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:140:26: error: variable or field ‘destroy’ declared void
+ extern "C" void destroy( DCPluginInterface* p ){
+                          ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:140:26: error: ‘DCPluginInterface’ was not declared in this scope
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:140:45: error: ‘p’ was not declared in this scope
+ extern "C" void destroy( DCPluginInterface* p ){
+                                             ^
+cc1plus: all warnings being treated as errors
+make[1]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/obj/CMPluginFrameworkInterface.o] Error 1
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/] Error 2
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/ADCAPOverlayDataStore.cpp: In member function ‘bool ADCAPOverlayDataStore::hasData()’:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/ADCAPOverlayDataStore.cpp:106:30: error: ‘class OperatingPictureDomain::adcapOverlayData_m’ has no member named ‘status_size’
+     if (m_adcap_overlay_data.status_size() > 0)
+                              ^
+make[1]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/obj/ADCAPOverlayDataStore.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CombatOwnshipInformationStore.cpp: In member function ‘bool CombatOwnshipInformationStore::hasData()’:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CombatOwnshipInformationStore.cpp:59:36: error: ‘class NavigationDomain::combatOwnshipInformation_m’ has no member named ‘status_size’
+     if (m_combat_ownship_info_data.status_size() > 0)
+                                    ^
+make[1]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/obj/CombatOwnshipInformationStore.o] Error 1
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.cpp:29:0:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.h:97:5: error: ‘cmOverlayData_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+     OperatingPictureDomain::cmOverlayData_m getData( void );
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.h:136:5: error: ‘cmOverlayData_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+     OperatingPictureDomain::cmOverlayData_m m_cm_overlay_data;
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.cpp: In member function ‘bool CMOverlayDataStore::hasData()’:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.cpp:60:9: error: ‘m_cm_overlay_data’ was not declared in this scope
+     if (m_cm_overlay_data.status_size() > 0)
+         ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.cpp: At global scope:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.cpp:76:1: error: ‘cmOverlayData_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+ OperatingPictureDomain::cmOverlayData_m CMOverlayDataStore::getData( void )
+ ^
+make[1]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/obj/CMOverlayDataStore.o] Error 1
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/] Error 2
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:39:0,
+                 from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.cpp:29:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DrawingControllerData.h:63:5: error: ‘cmOverlayData_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+     OperatingPictureDomain::cmOverlayData_m cm_overlay_data;
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DrawingControllerData.h:71:5: error: ‘contactReport_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+     OperatingPictureDomain::contactReport_m contact_report_data;
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DrawingControllerData.h:75:5: error: ‘fence_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+     OperatingPictureDomain::fence_m fence_data;
+     ^
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.cpp:29:0:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:60:1: error: expected class-name before ‘{’ token
+ {
+ ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:107:63: error: could not convert ‘0’ from ‘int’ to ‘const DCPluginInterface&’
+     virtual void init( const DCPluginInterface & plugin_int = 0 ) = 0;
+                                                               ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:121:41: error: conflicting declaration ‘typedef class DCFrameworkInterface* create_t()’
+ typedef DCFrameworkInterface* create_t( );
+                                         ^
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:36:0,
+                 from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.cpp:29:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCPluginInterface.h:88:28: error: ‘create_t’ has a previous declaration as ‘typedef class DCPluginInterface* create_t()’
+ typedef DCPluginInterface* create_t( );
+                            ^
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.cpp:29:0:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:126:45: error: conflicting declaration ‘typedef void destroy_t(class DCFrameworkInterface*)’
+ typedef void destroy_t(DCFrameworkInterface*);
+                                             ^
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:36:0,
+                 from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.cpp:29:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCPluginInterface.h:93:14: error: ‘destroy_t’ has a previous declaration as ‘typedef void destroy_t(class DCPluginInterface*)’
+ typedef void destroy_t(DCPluginInterface*);
+              ^
+make[1]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/obj/DCFrameworkInterface.o] Error 1
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/] Error 2
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CombatOwnshipInformationStore.cpp: In member function ‘bool CombatOwnshipInformationStore::hasData()’:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CombatOwnshipInformationStore.cpp:59:36: error: ‘class NavigationDomain::combatOwnshipInformation_m’ has no member named ‘status_size’
+     if (m_combat_ownship_info_data.status_size() > 0)
+                                    ^
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/obj/CombatOwnshipInformationStore.o] Error 1
+make: *** Waiting for unfinished jobs....
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/ADCAPOverlayDataStore.cpp: In member function ‘bool ADCAPOverlayDataStore::hasData()’:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/ADCAPOverlayDataStore.cpp:106:30: error: ‘class OperatingPictureDomain::adcapOverlayData_m’ has no member named ‘status_size’
+     if (m_adcap_overlay_data.status_size() > 0)
+                              ^
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.cpp:29:0:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.h:97:5: error: ‘cmOverlayData_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+     OperatingPictureDomain::cmOverlayData_m getData( void );
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.h:136:5: error: ‘cmOverlayData_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+     OperatingPictureDomain::cmOverlayData_m m_cm_overlay_data;
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.cpp: In member function ‘bool CMOverlayDataStore::hasData()’:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.cpp:60:9: error: ‘m_cm_overlay_data’ was not declared in this scope
+     if (m_cm_overlay_data.status_size() > 0)
+         ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.cpp: At global scope:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/CMOverlayDataStore.cpp:76:1: error: ‘cmOverlayData_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+ OperatingPictureDomain::cmOverlayData_m CMOverlayDataStore::getData( void )
+ ^
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/obj/ADCAPOverlayDataStore.o] Error 1
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/ContactReportStore.cpp:29:0:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/ContactReportStore.h:97:5: error: ‘TacticalPictureDomain’ does not name a type
+     TacticalPictureDomain::contactReport_m getData( void );
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/ContactReportStore.h:136:5: error: ‘contactReport_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+     OperatingPictureDomain::contactReport_m m_contact_report_data;
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/ContactReportStore.cpp: In member function ‘bool ContactReportStore::hasData()’:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/ContactReportStore.cpp:58:9: error: ‘m_contact_report_data’ was not declared in this scope
+     if (m_contact_report_data.status_size() > 0)
+         ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/ContactReportStore.cpp: At global scope:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/cpp/ContactReportStore.cpp:73:1: error: ‘TacticalPictureDomain’ does not name a type
+ TacticalPictureDomain::contactReport_m ContactReportStore::getData( void )
+ ^
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/obj/CMOverlayDataStore.o] Error 1
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp/obj/ContactReportStore.o] Error 1
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerApp
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:28:0:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.h:66:30: error: ‘DCPluginInterface’ does not name a type
+     virtual void init( const DCPluginInterface plugin_int );
+                              ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.h:66:48: error: ISO C++ forbids declaration of ‘plugin_int’ with no type [-fpermissive]
+     virtual void init( const DCPluginInterface plugin_int );
+                                                ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.h:108:5: error: ‘DrawingControllerData’ does not name a type
+     DrawingControllerData *m_drawing_cont_data;
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.h:113:11: error: ‘DCPluginInterface’ does not name a type
+     const DCPluginInterface *m_plugin_int;
+           ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:48:49: error: ‘DCPluginInterface’ does not name a type
+ void ADCAPPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+                                                 ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:48:67: error: ISO C++ forbids declaration of ‘plugin_int’ with no type [-fpermissive]
+ void ADCAPPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+                                                                   ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:48:6: error: unused parameter ‘plugin_int’ [-Werror=unused-parameter]
+ void ADCAPPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+      ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:106:12: error: ‘DCPluginInterface’ does not name a type
+ extern "C" DCPluginInterface * create( void ){
+            ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:121:26: error: variable or field ‘destroy’ declared void
+ extern "C" void destroy( DCPluginInterface* p ){
+                          ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:121:26: error: ‘DCPluginInterface’ was not declared in this scope
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/ADCAPPluginFrameworkInterface.cpp:121:45: error: ‘p’ was not declared in this scope
+ extern "C" void destroy( DCPluginInterface* p ){
+                                             ^
+cc1plus: all warnings being treated as errors
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/obj/ADCAPPluginFrameworkInterface.o] Error 1
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:28:0:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.h:77:30: error: ‘DCPluginInterface’ does not name a type
+     virtual void init( const DCPluginInterface plugin_int );
+                              ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.h:77:48: error: ISO C++ forbids declaration of ‘plugin_int’ with no type [-fpermissive]
+     virtual void init( const DCPluginInterface plugin_int );
+                                                ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.h:121:5: error: ‘DrawingControllerData’ does not name a type
+     DrawingControllerData *m_drawing_cont_data;
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.h:126:11: error: ‘DCPluginInterface’ does not name a type
+     const DCPluginInterface *m_plugin_int;
+           ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:52:46: error: ‘DCPluginInterface’ does not name a type
+ void CMPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+                                              ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:52:64: error: ISO C++ forbids declaration of ‘plugin_int’ with no type [-fpermissive]
+ void CMPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+                                                                ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:52:6: error: unused parameter ‘plugin_int’ [-Werror=unused-parameter]
+ void CMPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+      ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:125:12: error: ‘DCPluginInterface’ does not name a type
+ extern "C" DCPluginInterface * create( void ){
+            ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:140:26: error: variable or field ‘destroy’ declared void
+ extern "C" void destroy( DCPluginInterface* p ){
+                          ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:140:26: error: ‘DCPluginInterface’ was not declared in this scope
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/cpp/CMPluginFrameworkInterface.cpp:140:45: error: ‘p’ was not declared in this scope
+ extern "C" void destroy( DCPluginInterface* p ){
+                                             ^
+cc1plus: all warnings being treated as errors
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin/obj/CMPluginFrameworkInterface.o] Error 1
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:39:0,
+                 from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.cpp:29:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DrawingControllerData.h:63:5: error: ‘cmOverlayData_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+     OperatingPictureDomain::cmOverlayData_m cm_overlay_data;
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DrawingControllerData.h:71:5: error: ‘contactReport_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+     OperatingPictureDomain::contactReport_m contact_report_data;
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DrawingControllerData.h:75:5: error: ‘fence_m’ in namespace ‘OperatingPictureDomain’ does not name a type
+     OperatingPictureDomain::fence_m fence_data;
+     ^
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.cpp:29:0:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:60:1: error: expected class-name before ‘{’ token
+ {
+ ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:107:63: error: could not convert ‘0’ from ‘int’ to ‘const DCPluginInterface&’
+     virtual void init( const DCPluginInterface & plugin_int = 0 ) = 0;
+                                                               ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:121:41: error: conflicting declaration ‘typedef class DCFrameworkInterface* create_t()’
+ typedef DCFrameworkInterface* create_t( );
+                                         ^
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:36:0,
+                 from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.cpp:29:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCPluginInterface.h:88:28: error: ‘create_t’ has a previous declaration as ‘typedef class DCPluginInterface* create_t()’
+ typedef DCPluginInterface* create_t( );
+                            ^
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.cpp:29:0:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:126:45: error: conflicting declaration ‘typedef void destroy_t(class DCFrameworkInterface*)’
+ typedef void destroy_t(DCFrameworkInterface*);
+                                             ^
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.h:36:0,
+                 from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCFrameworkInterface.cpp:29:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/cpp/DCPluginInterface.h:93:14: error: ‘destroy_t’ has a previous declaration as ‘typedef void destroy_t(class DCPluginInterface*)’
+ typedef void destroy_t(DCPluginInterface*);
+              ^
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/obj/DCFrameworkInterface.o] Error 1
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerCommon
+In file included from /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/cpp/HarpoonPluginFrameworkInterface.cpp:28:0:
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/cpp/HarpoonPluginFrameworkInterface.h:66:30: error: ‘DCPluginInterface’ does not name a type
+     virtual void init( const DCPluginInterface plugin_int );
+                              ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/cpp/HarpoonPluginFrameworkInterface.h:66:48: error: ISO C++ forbids declaration of ‘plugin_int’ with no type [-fpermissive]
+     virtual void init( const DCPluginInterface plugin_int );
+                                                ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/cpp/HarpoonPluginFrameworkInterface.h:108:5: error: ‘DrawingControllerData’ does not name a type
+     DrawingControllerData *m_drawing_cont_data;
+     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/cpp/HarpoonPluginFrameworkInterface.h:113:11: error: ‘DCPluginInterface’ does not name a type
+     const DCPluginInterface *m_plugin_int;
+           ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/cpp/HarpoonPluginFrameworkInterface.cpp:48:51: error: ‘DCPluginInterface’ does not name a type
+ void HarpoonPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+                                                   ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/cpp/HarpoonPluginFrameworkInterface.cpp:48:69: error: ISO C++ forbids declaration of ‘plugin_int’ with no type [-fpermissive]
+ void HarpoonPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+                                                                     ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/cpp/HarpoonPluginFrameworkInterface.cpp:48:6: error: unused parameter ‘plugin_int’ [-Werror=unused-parameter]
+ void HarpoonPluginFrameworkInterface::init( const DCPluginInterface plugin_int )
+      ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/cpp/HarpoonPluginFrameworkInterface.cpp:106:12: error: ‘DCPluginInterface’ does not name a type
+ extern "C" DCPluginInterface * create( void ){
+            ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/cpp/HarpoonPluginFrameworkInterface.cpp:121:26: error: variable or field ‘destroy’ declared void
+ extern "C" void destroy( DCPluginInterface* p ){
+                          ^
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/cpp/HarpoonPluginFrameworkInterface.cpp:121:26: error: ‘DCPluginInterface’ was not declared in this scope
+/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/cpp/HarpoonPluginFrameworkInterface.cpp:121:45: error: ‘p’ was not declared in this scope
+ extern "C" void destroy( DCPluginInterface* p ){
+                                             ^
+cc1plus: all warnings being treated as errors
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin/obj/HarpoonPluginFrameworkInterface.o] Error 1
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin
+/usr/lib/../lib64/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[1]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/ContactManager/ContactManagerApp/dist/ContactManagerApp] Error 1
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/ContactManager/ContactManagerApp/] Error 2
+make: *** Waiting for unfinished jobs....
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/ContactManager
+/usr/lib/../lib64/crt1.o: In function `_start':
+(.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/ContactManager/ContactManagerApp/dist/ContactManagerApp] Error 1
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/WCS/WCSS/ContactManager/ContactManagerApp
+make: /home/wcsuser/Downloads/qt-everywhere-opensource-src-5.3.1/qtbase/bin/qmake: Command not found
+make: *** [Makefile] Error 127
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/COTS/qt/5.3.1/examples/declarative/tutorials/gettingStarted/parts/part5/filedialog
+/bin/sh: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/COTS/sabtech/v328/modules.order: Permission denied
+make[2]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/COTS/sabtech/v328/modules.order] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [_module_/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/COTS/sabtech/v328] Error 2
+make: *** [SwiftDriver] Error 2
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/COTS/sabtech/v328
+make: execvp: ./config.status: Permission denied
+make: *** [config.status] Error 127
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/COTS/less/451
+/bin/sh: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/COTS/ntds/v335/modules.order: Permission denied
+make[2]: *** [/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/COTS/ntds/v335/modules.order] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [_module_/home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/COTS/ntds/v335] Error 2
+make: *** [driver] Error 2
+Failure in: /home/nathan.caron/ccm_wa/wcsu/proj=nathan.caron/proj/COTS/ntds/v335
+************************
+Failures:
+
+/wcsu/deps=nathan.caron/deps
+/wcsu/deps=nathan.caron/deps/SymbolGenerator
+proj/WCS
+proj/WCS/Examples
+proj/WCS/WCSS
+proj/WCS/WCSS/DrawingController
+proj/WCS/WCSS/DrawingController/DrawingControllerApp
+proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin
+proj/WCS/WCSS/DrawingController/DrawingControllerCountermeasurePlugin
+proj/WCS/WCSS/DrawingController/DrawingControllerCommon
+proj/WCS/WCSS/DrawingController/DrawingControllerHarpoonPlugin
+proj/WCS/WCSS/ContactManager
+proj/WCS/WCSS/ContactManager/ContactManagerApp
+proj/COTS/qt/5.3.1/examples/declarative/tutorials/gettingStarted/parts/part5/filedialog
+proj/COTS/sabtech/v328
+proj/COTS/less/451
+proj/COTS/ntds/v335
+This took:  11  minutes and  49  seconds
+Finished: SUCCESS
