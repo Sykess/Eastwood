@@ -1,0 +1,113 @@
+#!/bin/bash
+pre=:
+post=:
+printf "$pre%s$post\n" "$@"
+
+
+# Calls:
+# sa \ this "is a" 'demonstration of' \ quotes\ and\ escapes
+# sa "a double-quoted single quote, '" "a double-quoted double quote, \""
+# sa 'a single-quoted double quotation mark, "'
+# sa "First argument "'still the first argument'
+# echo $'\'line1\'\n\'line2\''
+# sa "Argument containing
+#   a newline"
+# sa {one,two,three}
+# sa {1..3}
+# sa {A..z}
+# sa pre{d,l}ate # :predate: :prelate:
+# sa {{1..3},{a..c}}
+# sa {1..3}{a..c} # :1a: :1b: :1c: :2a: :2b: :2c: :3a: :3b: :3c:
+# sa {01..13..03} # 1-13 by 3's :01: :04: :07: :10: :13:
+# sa {a..h..3}
+# sa ~
+# sa ~root ~nathan.caron
+# sa "~" "~root"
+# dir=~nathan.caron
+# dir2="~nathan.caron"
+# sa "$dir" "$dir2"
+# sa ~qwerty
+# var=whatever
+# sa "$var" "${var}" # both same
+first=Nate
+last=Caron
+# sa "$first_$last" "${first}_$last" # :Nate: :Nate_Caron:
+# sa "$(( 1 + 12 ))" "$(( 12 * 13 ))" "$(( 16 / 4 ))" "$(( 6 - 9 ))"
+# sa "$(( 3 + 4 * 5 ))" "$(( (3 + 4) * 5 ))" # :23: :35:
+
+secs_in_day=86400
+secs_in_hour=3600
+mins_in_hour=60
+secs_in_min=60
+
+# $1 is command line argument
+# days=$(( $1 / $secs_in_day ))
+# secs=$(( $1 % $secs_in_day ))
+# printf "%d:%02d:%02d:%02d\n" "$days" "$(($secs / $secs_in_hour))" \
+#         "$((($secs / $mins_in_hour) %$mins_in_hour))" "$(($secs % $secs_in_min))"
+
+
+# Command Substitution
+# 
+# Command substitution replaces a command with its output. The command must be placed either between backticks (` command `) or between parentheses preceded by a dollar sign ($( command ) ). For example, to count the lines in a file whose name includes today's date, this command uses the output of the date command:
+# 
+# $ wc -l $( date +%Y-%m-%d ).log
+# 61 2009-03-31.log
+# The old format for command substitution uses backticks. This command is the same as the previous one:
+# 
+# $ wc -l `date +%Y-%m-%d`.log
+# 2 2009-04-01.log
+# Well, it's not exactly the same, because I ran the first command shortly before midnight and the second shortly after. As a result, wc processed two different files.
+# If the command substitution is not quoted, word splitting and pathname expansion are performed on the results.
+
+
+
+
+
+# var="this is a multi-word value"
+# sa $var "$var" # without quotes they get split :this: :is: :a: :multi-word: :value: :this is a multi-word value:
+
+# IFS=' :'
+# var="qwerty : uiop : :: er " # :qwerty: :uiop: :: :: :er:
+
+# sa h* # loads files that start with h such as :hello.sh: :hw.sh:
+# sa *h # ^^ but ends with h
+# sa ?a* # files with a as second letter
+# [aceg] matches any of a,c,e or g.  [h-o] matches h to o, inclusive.  [[:lower:]] matches lowercase
+# can disable filename expansion with the set -f command
+
+
+# sa <(ls -l) >(pr -Tn) # pr converts text files for printing by inserting page headers.  Headers can be turned off
+#   with the -T option, and the -n option numbers the lines
+
+
+
+
+# $ ls -l |
+# > while read perms links owner group size month day time file
+# > do
+# >   printf "%10d %s\n" "$size" "$file"
+# >   totalsize=$(( ${totalsize:=0} + ${size:-0} ))
+# > done
+# $ echo ${totalsize-unset} ## print "unset" if variable is not set
+# unset
+# 
+# By using process substitution instead, the variable totalsize becomes available outside of the loop:
+# 
+# $ while read perms links owner group size month day time file
+# > do
+# >   printf "%10d %s\n" "$size" "$file"
+# >   totalsize=$(( ${totalsize:=0} + ${size:-0} ))
+# > done < <(ls -l *)
+# $ echo ${totalsize-unset}
+# 12879
+
+
+
+
+
+
+
+
+
+
