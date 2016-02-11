@@ -1,0 +1,6 @@
+
+g++ MAIN.cpp IMPLEMENTATION.cpp -o OUTPUT -options (such as -lm -lglut -lgL)
+add flag -std=c++0x after g++ for c++ 11
+or flag  -std=c++11
+
+
