@@ -1,0 +1,23 @@
+
+To turn off cursor blink: gsettings set org.cinnamon.desktop.interface cursor-blink false
+
+Right click terminal and click Show Menubar to get terminal options (File, edit, etc)
+
+To mount shared folder: sudo mount -t vboxsf ShareName ~/Where/To/Share
+
+Ctrl-e and Ctrl-y to scroll vim up or down 1 line at a time.  Ctrl-d and Ctrl-u for half page at time
+
+gnome-open filename.jpg and such to open files with default program.  Other ways to open files
+    such as pdfs: xdg-open filename, evince filename.  There are others, but not by default.
+
+To mount the windows share:
+sudo mount -t cifs //192.168.0.2/d /home/nate/Desktop/Windows-Share -o username=l2ebelconvict@gmail.com
+To unmount the windows share:
+sudo umount -a -t cifs -l
+
+
+Install chrome:
+sudo add-apt-repository "deb http://dl.google.com/linux/chrome/deb/ stable main"
+wget q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install google-chrome-stable

@@ -1,0 +1,6 @@
+12;Nails;2000;0.37
+123;Stanley #2 Phillips Screwdriver;33;2.95
+9345;Miter Box;4;1.95
+12345;Eastwing Hammer;50;29.99
+45678;10d Galvanized Nails;80000;0.10
+123765;Dewalt Circular Saw;15;199.95

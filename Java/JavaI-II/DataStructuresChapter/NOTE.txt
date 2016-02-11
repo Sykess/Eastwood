@@ -1,0 +1,2 @@
+I included the pre compiled classes inside the com/deitel/datastructures directories so you can compile and run my program
+from within textpad.  Doing it the way the book recommends you have to use command prompt to compile properly.

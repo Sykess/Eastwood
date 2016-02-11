@@ -1,0 +1,63 @@
+class circle
+{
+    private:
+        double radius;
+        double pi;
+    public:
+        //circle();
+        circle(double r =0);
+        bool setRadius(double r);
+        double getRadius();
+        double getArea();
+        double getDiameter();
+        double getCircumfrence();   
+};
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+double circle::getCircumfrence()
+{
+    return 2 * pi * radius;
+}
+///////////////////////////////////////////////////////////////////////
+double circle::getDiameter()
+{
+    return radius * 2;   
+}
+///////////////////////////////////////////////////////////////////////
+double circle::getArea()
+{
+    return pi * radius * radius;    
+}
+//////////////////////////////////////////////////////////////////////
+double circle::getRadius()
+{
+    return radius;
+}
+///////////////////////////////////////////////////////////////////////
+bool circle::setRadius(double r)
+{
+    if(r > 0)
+    {
+        radius = r;
+        return true;
+    }
+
+    return false;
+}
+///////////////////////////////////////////////////////////////////////
+/*circle::circle()
+{
+    radius = 0;
+    pi = 3.14159;
+}*/ 
+////////////////////////////////////////////////////////////////////////
+circle::circle(double r)
+{      
+    if(r > 0)
+        radius = r;
+    else
+        radius = 0;
+        
+    pi = 3.14159;
+}
+

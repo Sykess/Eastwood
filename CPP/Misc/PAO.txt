@@ -1,0 +1,52 @@
+1;Spades;Me;Playing;Poker
+2;Spades;Bob Saget;Hosting;Home Videos
+3;Spades; ; ; 
+4;Spades; ; ; 
+5;Spades; ; ; 
+6;Spades; ; ; 
+7;Spades; ; ; 
+8;Spades; ; ; 
+9;Spades;Nick Swardson;Hiding;Closet
+10;Spades;Oliver Sykes;Screaming;Microphone
+11;Spades; ; ; 
+12;Spades; ; ; 
+13;Spades; ; ; 
+1;Clubs; ; ; 
+2;Clubs; ; ; 
+3;Clubs;Courage Cowardly Dog;Shaking;Bed
+4;Clubs; ; ; 
+5;Clubs;Eric Cartman;Hitting;Stick
+6;Clubs; ; ; 
+7;Clubs; ; ; 
+8;Clubs;Hollye Caron;Annoying;Wife
+9;Clubs; ; ; 
+10;Clubs; ; ; 
+11;Clubs;Jesus Christ;Hanging;Cross
+12;Clubs; ; ; 
+13;Clubs;Tiger Woods;Swinging;Golf Club
+1;Hearts;Kim;Drawing;Pictures
+2;Hearts; ; ; 
+3;Hearts; ; ; 
+4;Hearts; ; ; 
+5;Hearts; ; ; 
+6;Hearts; ; ; 
+7;Hearts; ; ; 
+8;Hearts;HHH;Wrestling;Cage
+9;Hearts; ; ; 
+10;Hearts; ; ; 
+11;Hearts;Justina;Fighting;Sister
+12;Hearts;Priscilla;Standing;Corner
+13;Hearts;Mario;Saving;Princess
+1;Diamonds; ; ; 
+2;Diamonds; ; ; 
+3;Diamonds;Spiderman;Climbing;Building
+4;Diamonds;DeeDee;Selling;Perks
+5;Diamonds; ; ; 
+6;Diamonds;Superman;Flying;Rainbow
+7;Diamonds; ; ; 
+8;Diamonds; ; ; 
+9;Diamonds; ; ; 
+10;Diamonds;Odie;Licking;Cat
+11;Diamonds;Joe Dirt;Wearing;Wig
+12;Diamonds; ; ; 
+13;Diamonds; ; ; 

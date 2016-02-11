@@ -1,0 +1,5 @@
+123;Blah dee blah4;35;1.99
+9345;Miter Box;4;1.95
+12345;Eastwing Hammer;50;29.99
+45678;10d Galvanized Nails;80000;0.1
+123765;Dewalt Circular Saw;15;199.95
