@@ -1,3 +1,6 @@
 Yeah just another test
 
 I want to test too!
+
+Does diff work?
+
