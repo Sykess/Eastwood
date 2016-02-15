@@ -8,6 +8,10 @@ public class ServerSideClientHandler implements Runnable, MessageListener
 	private ObjectOutputStream out;
 	private ArrayList<ServerSideClientHandler> list;
 	private MessageReceiver mr;
+	private String name;
+
+	public void setName(String name) { this.name = name; }
+	public String getName() { return name; }
 
 	public ServerSideClientHandler(Socket socket, ArrayList<ServerSideClientHandler> l)
 	{
@@ -32,6 +36,7 @@ public class ServerSideClientHandler implements Runnable, MessageListener
 		System.out.println("A client said:" + s);
 		for(int i = 0; i < list.size(); i++)
 		{
+			// Here you could check for names, etc. Instead of send to all
 			list.get(i).sendMail(s);
 		}
 	}
