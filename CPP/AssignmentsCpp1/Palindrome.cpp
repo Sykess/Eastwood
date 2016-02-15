@@ -22,30 +22,31 @@ int main()
 	do{
 	
 
-	cout << "Enter a string, and I will tell you if its a palindrome: ";
+		cout << "Enter a string, and I will tell you if its a palindrome: ";
 
 
-	if(String(palin))
-	{
-		if(palindrome(palin))
-			cout << "The string you entered was a palindrome";
+		if(String(palin))
+		{
+			if(palindrome(palin))
+				cout << "The string you entered was a palindrome";
+			else
+				cout << "The string you entered was not a palindrome";
+
+
+		}	
 		else
-			cout << "The string you entered was not a palindrome";
-
-
-	}
-	else
-		cout << "You entered an invalid string";
+			cout << "You entered an invalid string";
 
 
 
-	cout << "\n\nPress 1 to exit, any other number to enter another string";
-	cin >> check;
+		cout << "\n\nPress 1 to exit, any other number to enter another string";
+		cin >> check;
+		cin.ignore();
 
-	cout << endl << endl;
+		cout << endl << endl;
 
 
-	}while(check != 1);
+	} while(check != 1);
 
 	return 0;
 }
@@ -56,6 +57,8 @@ bool String(char str[MAX])
 {
 	char ch;
 	int x = 0;
+	
+//	cin.ignore();
 
 	while((ch = cin.get()) != '\n')
 	{
@@ -87,34 +90,38 @@ int getLength(char str[MAX])
 bool palindrome(const char origpal[MAX])
 {
 
-	cout << origpal;
+	cout << "\nOrig pal is: " << origpal;
 
 	char duppal[MAX];
 	int size = 0;
 	int y=0;
 	int end = 0, start = 0;
 
-	for(int x=0; (x < origpal[x]); x++)
+	for(int x=0; (x < MAX - 1); x++)
 	{
 		if((origpal[x] >= 65) && (origpal[x] <= 90))
 			duppal[y] = origpal[x];
-		if((origpal[x] >= 97) && (origpal[x] <= 122))
+		else if((origpal[x] >= 97) && (origpal[x] <= 122))
 			duppal[y] = origpal[x] - 32;
+		else if (origpal[x] != '\n')
+			duppal[y] = origpal[x];
 		y++;
 	}
 
 	end = getLength(duppal);
 
 	
-	cout << duppal << end;
+	cout << "\nDup pal is: " << duppal << endl;
 
 	
 
 	for(;start<=end;)
 	{
-		if(start != end)
+		if(duppal[start] != duppal[end-1])
 			return false;
-		start + 1, end - 1;
+		start += 1;
+		end -= 1;
+		//std::cout << "Start " << start << " END " << end;
 	}
 	
 
