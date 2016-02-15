@@ -26,7 +26,7 @@ int main()
 
 		if(population > 0) //makes sure population exists to display that year and
 						   //keeps the empty line at end of file from creating a year
-		cout << endl << year << " ";
+			cout << endl << year << " ";
 
 		population /= 1000;
 
