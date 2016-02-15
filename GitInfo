@@ -33,7 +33,7 @@ git checkout [branch-name]    # Switches to the specified branch and updates the
 git merge [branch]            # Combines the specified branch's history into the current branch
 git branch -d [branch-name]   # Deletes the specified branch
 git rm [file]                 # Deletes file from working dir and stages deletion
-git rm --cached [file]        # Removes file from vesrion control but preserves locally
+git rm --cached [file]        # Removes file from version control but preserves locally
 git mv [original] [rename]    # Changes name and prepares for commit
 git log                       # Version history for current branch
 git reset [commit]            # Undoes all commits after [commit], preserving changes locally
