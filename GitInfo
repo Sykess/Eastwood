@@ -22,6 +22,7 @@ git push origin master        # Uploads all local branch commits to Github (real
 git fetch [bookmark]          # Downloads all history from the repo bookmark
 git merge [bookmark]/[branch] # Combines bookmark's branch into current local branch
 git pull                      # Downloads bookmark history and incorporates changes
+git push --force              # Forces change that will lose some history (changing a file changed elsewhere)
 
 # Other useful stuff:
 git init [project-name]       # Creates new local repo with project-name

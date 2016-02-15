@@ -2,5 +2,9 @@ Yeah just another test
 
 I want to test too!
 
+<<<<<<< HEAD
 Does diff work?
 
+=======
+Will this erase my other diff statement?
+>>>>>>> 296e5f9e86b7e9d32846ef2cdd0681f0e0670271
