@@ -18,7 +18,7 @@ public class MessageReceiver implements Runnable
 			try
 			{
 				String message = (String)in.readObject();
-				messageListener.deliverMessage(message);
+				messageListener.deliverMessage(message, "Nate");
 			}
 			catch(Exception e)
 			{

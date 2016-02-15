@@ -40,6 +40,18 @@ public class ServerSideClientHandler implements Runnable, MessageListener
 			list.get(i).sendMail(s);
 		}
 	}
+	// Or maybe make something like this
+	public void deliverMessage(String s, String name)
+	{
+		System.out.println("A client said:" + s);
+		for(int i = 0; i < list.size(); i++)
+		{
+			if(list.get(i).getName().equals(name))
+			{
+				list.get(i).sendMail(s);
+			}
+		}
+	}
 
 	public void sendMail(String s)
 	{

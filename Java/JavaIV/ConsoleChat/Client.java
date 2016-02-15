@@ -39,6 +39,10 @@ public class Client implements MessageListener
 	{
 		System.out.println(s);
 	}
+	public void deliverMessage(String s, String name)
+	{
+		System.out.println(s);
+	}
 
 	public void removeMe()
 	{
