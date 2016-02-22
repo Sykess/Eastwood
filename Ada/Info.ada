@@ -1,0 +1,13 @@
+
+-- To compile with gcc the long way:
+--      gcc -c myProgram.adb
+--      gnatbind myProgram
+--      gnatlink myProgram
+-- To compile the easier way:
+--      gnatmake myProgram.adb
+-- Both ways will create .ali .o and .exe files
+--
+-- Naming conventions: file name is unit name, with periods replaced by hyphens.
+--      The extension is ads for a spec and adb for a body.  You can override
+--      default naming convention by use of special pragma Source_File_Name
+--      gnatchop utility can be used to generate correctly-named source files
