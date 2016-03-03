@@ -44,6 +44,9 @@ git mv [original] [rename]    # Changes name and prepares for commit
 git log                       # Version history for current branch
 git reset [commit]            # Undoes all commits after [commit], preserving changes locally
 git reset --hard [commit]     # Discards all history and changes back to the specified commit
+git reset --hard origin/master # Reset to whatever the origin was at
+git reset --hard HEAD^        # Reset to previous commit before current head
+git reset --hard HEAD~4       # Throw away all local changes in working tree and four latest commits
 ~/.gitconfig                  # Stores your global information
 
 
