@@ -5,11 +5,6 @@
 git config --global user.name "Sykess"
 git config --global user.email "Sykess@users.noreply.github.com"
 git config --global color.ui auto # Enables colorization of command line output I guess
-# Note you can exclude the global for local repo settings.  Excluding the value (aka "Sykess") shows what is currently set
-git config --get-all user.name            # Gets from : local, repo, git, config, file
-git config --global --get-all user.name   # Gets from : user, config, file
-git config --system --get-all user.name   # Gets from : system, git, config, file
-git config --list   # Some kind of listing
 
 # Make changes:
 git status                    # Lists new or modified files to be committed
@@ -21,7 +16,6 @@ git commit -m "Description"   # Records snapshot permanently in version history
 
 # To set Remote URL so it knows where to commit to and who to authenticate:
 git remote set-url origin https://Sykess@github.com/Sykess/RCfiles.git
-git remote -v   # View existing remotes
 
 # Synchronization steps:
 git push origin master        # Uploads all local branch commits to Github (really git push [alias] [branch])
@@ -44,7 +38,6 @@ git mv [original] [rename]    # Changes name and prepares for commit
 git log                       # Version history for current branch
 git reset [commit]            # Undoes all commits after [commit], preserving changes locally
 git reset --hard [commit]     # Discards all history and changes back to the specified commit
-~/.gitconfig                  # Stores your global information
 
 
 
