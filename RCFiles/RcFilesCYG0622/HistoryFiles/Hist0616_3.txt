@@ -1,0 +1,167 @@
+  314  Jun-16-16 11:37:16 "{print $'$column'}"'
+  316  Jun-16-16 11:37:16 echo "{print $'$column'}"'
+  318  Jun-16-16 11:37:16 awk "{print $'$column'}"'
+  413  Jun-16-16 10:16:15 md5sum.exe /cygdrive/c/Users/nathan.caron/Documents/PTRWorkSheet/Compare/Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V7.xlsx 
+  414  Jun-16-16 10:16:27 clear
+  415  Jun-16-16 10:16:29 md5sum.exe /cygdrive/c/Users/nathan.caron/Documents/PTRWorkSheet/Compare/Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V7.xlsx 
+  416  Jun-16-16 10:16:51 md5sum.exe /cygdrive/c/Users/nathan.caron/Documents/PTRWorkSheet/Compare/Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V7.xlsx  | awk '{ print $1 }'
+  417  Jun-16-16 10:17:25 md5sum.exe /cygdrive/y/WCS/Harpoon\ Phase\ RAN/Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V7.xlsx 
+  418  Jun-16-16 10:17:43 ls
+  419  Jun-16-16 10:17:45 cd ..
+  420  Jun-16-16 10:17:45 ls
+  421  Jun-16-16 10:17:51 vim UpdateAlliance.sh
+  422  Jun-16-16 10:17:57 vim CopySpreadsheet.sh
+  423  Jun-16-16 10:18:01 vim Functions.sh
+  424  Jun-16-16 10:18:58 x=5
+  425  Jun-16-16 10:20:09 while [[ x < 10 ]]; do echo $x; ((++)); done
+  426  Jun-16-16 10:20:27 if [[ x < 10 ]]; then echo "hi"; fi
+  427  Jun-16-16 10:20:31 echo $x
+  428  Jun-16-16 10:20:45 if ((x<10)); then echo "hi"; fi
+  429  Jun-16-16 10:51:03 a=abc
+  430  Jun-16-16 10:51:07 b=abcdef
+  431  Jun-16-16 10:51:24 [[ $a == $b ]] && echo equal
+  432  Jun-16-16 10:51:43 [[ $a == *"$b"* ]] && echo equal
+  433  Jun-16-16 10:52:02 [[ $b == *"$a"* ]] && echo equal
+  434  Jun-16-16 10:53:06 [[ "$b" == *"$a"* ]] && echo equal
+  435  Jun-16-16 10:53:12 [[ "$b" == "$a" ]] && echo equal
+  436  Jun-16-16 10:53:20 [[ "$b" == *"$a"* ]] && echo equal
+  437  Jun-16-16 10:53:27 [[ "$b"* == *"$a"* ]] && echo equal
+  438  Jun-16-16 10:53:34 [[ *"$b"* == *"$a"* ]] && echo equal
+  439  Jun-16-16 10:53:56 [[ "$b" == "$a"* ]] && echo equal
+  440  Jun-16-16 10:55:01 [ "$b" == "$a" ] && echo equal
+  441  Jun-16-16 10:55:08 [ "$b" == *"$a"* ] && echo equal
+  442  Jun-16-16 10:55:21 [ "$b" = *"$a"* ] && echo equal
+  443  Jun-16-16 10:56:10 [ "$b" =~ *"$a"* ] && echo equal
+  444  Jun-16-16 10:57:43 [[ $b =~ $a ]] && echo contains
+  445  Jun-16-16 10:58:47 case "$a" in *$b*) echo contains ;; esac
+  446  Jun-16-16 10:59:00 case "$b" in *$a*) echo contains ;; esac
+  447  Jun-16-16 11:03:45 echo $zsh
+  448  Jun-16-16 11:03:50 echo $ZSHRC
+  449  Jun-16-16 11:03:56 echo $BASH
+  450  Jun-16-16 11:04:01 echo $ZSH
+  451  Jun-16-16 11:04:05 echo /bin
+  452  Jun-16-16 11:04:07 ls /bin
+  453  Jun-16-16 11:06:12 echo $a
+  454  Jun-16-16 11:06:17 echo $b
+  455  Jun-16-16 11:06:53 [ "$b" != "${b/a/}" ] && echo contains
+  456  Jun-16-16 11:06:56 [ "$b" != "${b/a/}" ] && echo contains
+  457  Jun-16-16 11:06:58 echo $b
+  458  Jun-16-16 11:07:00 echo $a
+  459  Jun-16-16 11:07:12 a=abdd
+  460  Jun-16-16 11:07:14 [ "$b" != "${b/a/}" ] && echo contains
+  461  Jun-16-16 11:07:24 ls $b
+  462  Jun-16-16 11:07:26 echo $b
+  463  Jun-16-16 11:07:35 echo $a
+  464  Jun-16-16 11:07:46 a=xab
+  465  Jun-16-16 11:07:53 [ "$b" != "${b/a/}" ] && echo contains
+  466  Jun-16-16 11:08:51 echo "$b"
+  467  Jun-16-16 11:10:43 [ -z "${b##*$a*}" ] && echo contain
+  468  Jun-16-16 11:11:00 echo $a
+  469  Jun-16-16 11:11:02 a=abc
+  470  Jun-16-16 11:11:04 [ -z "${b##*$a*}" ] && echo contain
+  471  Jun-16-16 11:11:20 echo "${b/a/}"
+  472  Jun-16-16 11:11:30 echo $b
+  473  Jun-16-16 11:11:33 echo $a
+  474  Jun-16-16 11:12:01 [ "$b" != "${$b/$a/}" ] && echo contains
+  475  Jun-16-16 11:12:28 [ "$b" != "${abcdef/abc/}" ] && echo contains
+  476  Jun-16-16 11:12:36 [ "$b" != "${abc/abcdef/}" ] && echo contains
+  477  Jun-16-16 11:12:56 echo "${abc/abcdef/}"
+  478  Jun-16-16 11:13:38 [ "$b" != "${abc/abcdef/}" ] && echo contains
+  479  Jun-16-16 11:13:57 [ "$b" != "${abcdef/abc/}" ] && echo contains
+  480  Jun-16-16 11:14:05 echo "${abcdef/abc/}"
+  481  Jun-16-16 11:14:26 echo "${b/a/}"
+  482  Jun-16-16 11:14:38 echo "${b/$a/}"
+  483  Jun-16-16 11:15:07 echo "${b/fed/}"
+  484  Jun-16-16 11:16:52 history > Hist0616_2.txt
+  485  Jun-16-16 11:31:39 ls
+  486  Jun-16-16 11:31:42 vim UnshareExcel.vbs 
+  487  Jun-16-16 11:32:09 vim TestRun.sh
+  488  Jun-16-16 11:33:08 bash TestRun.sh 
+  489  Jun-16-16 11:33:11 vim TestRun.sh
+  490  Jun-16-16 11:33:24 bash TestRun.sh 
+  491  Jun-16-16 11:33:29 ls
+  492  Jun-16-16 11:33:43 bash TestRun.sh 
+  493  Jun-16-16 11:33:47 vim TestRun.sh
+  494  Jun-16-16 11:34:01 bash TestRun.sh 
+  495  Jun-16-16 11:34:12 pwd
+  496  Jun-16-16 11:34:23 vim TestRun.sh
+  497  Jun-16-16 11:34:33 bash TestRun.sh 
+  498  Jun-16-16 11:34:47 vim TestRun.sh
+  499  Jun-16-16 11:34:58 bash TestRun.sh 
+  500  Jun-16-16 11:35:58 run emacs
+  501  Jun-16-16 11:37:20 ls
+  502  Jun-16-16 11:37:25 vim TestRun.sh
+  503  Jun-16-16 11:41:58 vim UnshareExcel.vbs 
+  504  Jun-16-16 11:42:32 bash TestRun.sh
+  505  Jun-16-16 11:42:43 vim TestRun.sh
+  506  Jun-16-16 11:43:33 bash TestRun.sh
+  507  Jun-16-16 11:43:59 bash TestRun.sh
+  508  Jun-16-16 11:44:06 vim TestRun.sh
+  509  Jun-16-16 11:44:18 bash TestRun.sh
+  510  Jun-16-16 11:44:39 vim TestRun.sh
+  511  Jun-16-16 11:45:40 bash TestRun.sh
+  512  Jun-16-16 11:45:49 vim TestRun.sh
+  513  Jun-16-16 11:46:00 bash TestRun.sh
+  514  Jun-16-16 11:47:23 vim TestRun.sh
+  515  Jun-16-16 11:47:47 bash TestRun.sh
+  516  Jun-16-16 11:48:07 vim TestRun.sh
+  517  Jun-16-16 11:52:53 bash TestRun.sh
+  518  Jun-16-16 11:53:20 vim TestRun.sh
+  519  Jun-16-16 11:53:34 ls
+  520  Jun-16-16 11:53:37 cmd UnshareExcel.vbs 
+  521  Jun-16-16 11:54:29 cmd /c start /wait UnshareExcel.vbs 
+  522  Jun-16-16 11:54:42 sudo cmd /c start /wait UnshareExcel.vbs 
+  523  Jun-16-16 11:56:13 ls
+  524  Jun-16-16 11:56:15 vim UnshareExcel.vbs 
+  525  Jun-16-16 11:56:18 vim TestRun.sh
+  526  Jun-16-16 11:56:52 bash TestRun.sh
+  527  Jun-16-16 11:57:14 vim TestRun.sh
+  528  Jun-16-16 11:57:40 ls
+  529  Jun-16-16 11:57:50 ls /c/Users/nathan.caron
+  530  Jun-16-16 11:57:58 cat TestRun.sh
+  531  Jun-16-16 11:58:17 /c/windows/notepad
+  532  Jun-16-16 11:59:09 cp UnshareExcel.vbs /cygdrive/c/Users/nathan.caron/Documents/UnshareExcel.vbs
+  533  Jun-16-16 11:59:10 ls
+  534  Jun-16-16 11:59:28 /cygdrive/c/Users/nathan.caron/Documents/UnshareExcel.vbs
+  535  Jun-16-16 11:59:51 run /cygdrive/c/Users/nathan.caron/Documents/UnshareExcel.vbs --wait
+  536  Jun-16-16 12:00:08 cygstart /cygdrive/c/Users/nathan.caron/Documents/UnshareExcel.vbs --wait
+  537  Jun-16-16 12:01:19 echo ${COMSPEC}
+  538  Jun-16-16 12:02:11 $(cygpath -u "${COMSPEC}") /c start /cygdrive/c/Users/nathan.caron/Documents/UnshareExcel.vbs
+  539  Jun-16-16 12:02:25 $(cygpath -u "${COMSPEC}") /c start /C/Users/nathan.caron/Documents/UnshareExcel.vbs
+  540  Jun-16-16 12:02:46 $(cygpath -u "${COMSPEC}") /c start C:\Users\nathan.caron\Documents\UnshareExcel.vbs
+  541  Jun-16-16 12:03:19 $(cygpath -u "${COMSPEC}") /c start "C:\Users\nathan.caron\Documents\UnshareExcel.vbs"
+  542  Jun-16-16 12:04:52 $(cygpath -u "${COMSPEC}") /c start "C:\Users\nathan.caron\Documents\UnshareExcel.vbs"
+  543  Jun-16-16 12:05:10 $(cygpath -u "${COMSPEC}") /c start "C:\Users\nathan.caron\Documents\UnshareExcel.vbs"
+  544  Jun-16-16 12:07:31 echo $var
+  545  Jun-16-16 12:07:37 echo ${var+x}
+  546  Jun-16-16 12:07:46 var=hi
+  547  Jun-16-16 12:07:51 echo ${var+x}
+  548  Jun-16-16 12:08:15 echo $var
+  549  Jun-16-16 12:08:28 [ -z ${var+x} ] && echo "hi"
+  550  Jun-16-16 12:08:37 var=""
+  551  Jun-16-16 12:08:38 [ -z ${var+x} ] && echo "hi"
+  552  Jun-16-16 12:08:43 echo $var
+  553  Jun-16-16 12:08:46 unset var
+  554  Jun-16-16 12:08:47 [ -z ${var+x} ] && echo "hi"
+  555  Jun-16-16 12:18:36 ls
+  556  Jun-16-16 12:18:40 bash UnshareExcel.vbs 
+  557  Jun-16-16 12:18:53 vim TestRun.sh
+  558  Jun-16-16 12:19:14 bash UnshareExcel.vbs 
+  559  Jun-16-16 12:19:20 vim UnshareExcel.vbs 
+  560  Jun-16-16 12:19:31 la
+  561  Jun-16-16 12:19:52 cygstart.exe UnshareExcel.vbs 
+  562  Jun-16-16 12:20:14 cdDoc
+  563  Jun-16-16 12:20:15 ls
+  564  Jun-16-16 12:20:19 vim UnshareExcel.vbs 
+  565  Jun-16-16 12:22:26 $(cygpath -u "${COMSPEC}") /c start /cygdrive/c/Users/nathan.caron/Documents/UnshareExcel.vbs
+  566  Jun-16-16 12:22:44 $(cygpath -u "${COMSPEC}") /c start "C:\Users\nathan.caron\Documents\UnshareExcel.vbs"
+  567  Jun-16-16 12:22:59 cd
+  568  Jun-16-16 12:22:59 ls
+  569  Jun-16-16 12:23:25 echo '$(cygpath -u "${COMSPEC}") /c start "C:\Users\nathan.caron\Documents\UnshareExcel.vbs"' >> TestRun.sh
+  570  Jun-16-16 12:23:28 vim TestRun.sh
+  571  Jun-16-16 12:24:21 bash TestRun.sh
+  572  Jun-16-16 12:25:20 vim TestRun.sh
+  573  Jun-16-16 12:29:24 history | grep "Jun 16"
+  574  Jun-16-16 12:29:35 history
+  575  Jun-16-16 12:29:45 history | grep "Jun-16-16"
+  576  Jun-16-16 12:30:28 history | grep "Jun-16-16" > HistoryFiles/Hist0616_3.txt

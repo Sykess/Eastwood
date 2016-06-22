@@ -1,0 +1,500 @@
+  194  May-27-16 12:35:12 ls
+  195  May-27-16 12:35:15 cd Version_6/
+  196  May-27-16 12:35:16 ls
+  197  May-27-16 12:35:26 CopyWorksheet 
+  198  May-27-16 12:35:27 ls
+  199  May-27-16 12:35:54 rm Harpoon_Phase_RAN_PTR_List_WIP_V6_May27_1235.xlsx 
+  200  May-27-16 12:35:55 ls
+  201  May-27-16 12:36:21 rm Harpoon_Phase_RAN_PTR_List_WIP_V6_0526.xlsx 
+  202  May-27-16 12:36:22 ls
+  203  May-27-16 12:36:26 ll
+  204  May-27-16 18:27:40 exit
+  205  May-26-16 09:35:53 ls
+  206  May-26-16 09:36:00 vim AddToSpreadsheet
+  207  May-26-16 09:55:49 vim AddToSpreadsheet 
+  208  May-26-16 10:14:52 cd C:
+  209  May-26-16 10:14:53 ls
+  210  May-26-16 10:14:58 pwd
+  211  May-26-16 10:17:26 cd /cygdrive/c/Users/nathan.caron/Documents/
+  212  May-26-16 10:17:26 ls
+  213  May-26-16 10:17:44 . .bashrc
+  214  May-26-16 10:17:49 . ~/.bashrc
+  215  May-26-16 10:17:50 ls
+  216  May-26-16 10:18:31 ls
+  217  May-26-16 10:19:15 cdDesk
+  218  May-26-16 10:19:16 pwd
+  219  May-26-16 10:19:23 cd ../Documents/
+  220  May-26-16 10:19:23 ls
+  221  May-26-16 10:20:25 ls
+  222  May-26-16 10:20:28 ls PTRWorkSheet/
+  223  May-26-16 10:21:44 ls
+  224  May-26-16 10:21:54 ls PTRWorkSheet/
+  225  May-26-16 10:22:34 md5sum.exe Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V5.xlsx 
+  226  May-26-16 10:22:54 md5sum.exe PTRWorkSheet/Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V5.xlsx 
+  227  May-26-16 10:23:02 md5sum.exe PTRWorkSheet/Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V5.xlsx 
+  228  May-26-16 10:23:09 md5sum.exe Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V5.xlsx 
+  229  May-26-16 10:23:13 ls
+  230  May-26-16 10:23:19 la
+  231  May-26-16 10:23:24 la
+  232  May-26-16 10:23:32 la PTRWorkSheet/
+  233  May-26-16 10:24:51 mv Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V5.xlsx PTRWorkSheet/Harpoon_Phase_RAN_PTR_List_WIP_V5_0518.xlsx
+  234  May-26-16 10:24:53 ls
+  235  May-26-16 10:24:55 la
+  236  May-26-16 10:25:12 la PTRWorkSheet/
+  237  May-26-16 10:25:51 mv Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V5\ \(2\).xlsx PTRWorkSheet/Harpoon_Phase_RAN_PTR_List_WIP_V5_0518_2.xlsx
+  238  May-26-16 10:25:52 ls
+  239  May-26-16 10:25:54 la
+  240  May-26-16 10:25:58 la PTRWorkSheet/
+  241  May-26-16 10:26:04 cd PTRWorkSheet/
+  242  May-26-16 10:26:05 la
+  243  May-26-16 10:28:05 mv Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V5\ \(518\ 6pm\ update\).xlsx Harpoon_Phase_RAN_PTR_List_WIP_V5_0518_6pm.xlsx
+  244  May-26-16 10:28:06 ls
+  245  May-26-16 10:28:13 la
+  246  May-26-16 10:28:50 mv Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V5\ \(518\ 6pm\ update\)\ -\ Copy.xlsx Harpoon_Phase_RAN_PTR_List_WIP_V5_0518_6pm_copy.xlsx
+  247  May-26-16 10:28:52 la
+  248  May-26-16 10:29:38 mv Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V5.xlsx Harpoon_Phase_RAN_PTR_List_WIP_V5_0517.xlsx
+  249  May-26-16 10:29:39 ls
+  250  May-26-16 10:29:40 la
+  251  May-26-16 10:30:17 mv Harpoon\ Phase\ RAN\ PTR\ List\ WIP\ V5Nate.xlsx Harpoon_Phase_RAN_PTR_List_WIP_V5_Nate_0517.xlsx
+  252  May-26-16 10:30:18 ls
+  253  May-26-16 10:30:19 la
+  254  May-26-16 10:30:34 mkdir Version_5
+  255  May-26-16 10:30:34 ls
+  256  May-26-16 10:31:03 mv Harpoon_* Version_5/
+  257  May-26-16 10:31:03 ls
+  258  May-26-16 10:31:13 mkdir Version_6
+  259  May-26-16 10:31:13 ls
+  260  May-26-16 10:32:13 mv HarpoonPhaseRAN_PTR_ListWIP_V6_0526.xlsx Version_6/Harpoon_Phase_RAN_PTR_List_WIP_V6_0526.xlsx
+  261  May-26-16 10:32:14 ls
+  262  May-26-16 10:32:24 gnome-open .
+  263  May-26-16 10:33:14 mv Dun\ Gawn\ Wrung.png Version_5/Dun_Gawn_Wrung.png
+  264  May-26-16 10:33:15 ls
+  265  May-26-16 10:33:30 ls
+  266  May-26-16 10:33:38 md5sum.exe Backup0519.xlsx 
+  267  May-26-16 10:33:49 md5sum.exe Version_5/*
+  268  May-26-16 10:33:59 ls
+  269  May-26-16 10:34:00 la
+  270  May-26-16 10:34:42 mv Backup0519.xlsx Version_5/Harpoon_Phase_RAN_PTR_List_WIP_V5_0519.xlsx
+  271  May-26-16 10:34:42 ls
+  272  May-26-16 10:37:19 cd Y:
+  273  May-26-16 10:37:20 ls
+  274  May-26-16 10:37:42 pwd
+  275  May-26-16 10:37:58 cd WCS/Harpoon\ Phase\ RAN/
+  276  May-26-16 10:38:00 ls
+  277  May-26-16 10:38:08 pwd
+  278  May-26-16 10:42:21 ls
+  279  May-26-16 10:42:24 la
+  280  May-26-16 10:42:41 md5sum.exe Harpoon\ Phase\ RAN\ Logo\ -\ Alex\ Edition.png 
+  281  May-26-16 10:42:50 md5sum.exe Harpoon\ Phase\ RAN\ Logo\ -\ Alex\ Edition1.png 
+  282  May-26-16 10:43:17 ls
+  283  May-26-16 10:43:18 la
+  284  May-26-16 10:45:27 cp '/cygdrive/y/WCS/Harpoon Phase RAN/Harpoon Phase RAN Logo - Alex Edition1.png' /cygdrive/c/Users/nathan.caron/Documents/PTRWorkSheet/Version_6/Harpoon_Phase_RAN_Logo_Alex_Edition1_$(date +%m%d).png
+  285  May-26-16 11:03:23 man date
+  286  May-26-16 16:35:23 ls
+  287  May-27-16 12:34:45 ls
+  288  May-27-16 13:29:35 python
+  289  May-27-16 18:27:44 exit
+  290  Jun-07-16 09:55:16 ls
+  291  Jun-07-16 09:55:19 vim .bashrc
+  292  Jun-07-16 11:12:39 exit
+  293  Jun-07-16 09:56:49 ls
+  294  Jun-07-16 09:56:55 la
+  295  Jun-07-16 09:57:09 vim .profile
+  296  Jun-07-16 09:57:24 echo $PATH
+  297  Jun-07-16 09:57:30 pwd
+  298  Jun-07-16 09:57:39 ls
+  299  Jun-07-16 09:57:41 cd ..
+  300  Jun-07-16 09:57:42 ls
+  301  Jun-07-16 09:57:43 cd ..
+  302  Jun-07-16 09:57:44 ls
+  303  Jun-07-16 09:57:51 cd usr/bin/
+  304  Jun-07-16 09:57:52 ls
+  305  Jun-07-16 09:57:56 cd ..
+  306  Jun-07-16 09:57:57 cd ..
+  307  Jun-07-16 09:57:58 cd
+  308  Jun-07-16 09:57:59 ls
+  309  Jun-07-16 09:58:04 vim Functions.sh
+  310  Jun-07-16 09:58:25 vim UpdateAlliance.sh
+  311  Jun-07-16 11:02:02 ls
+  312  Jun-07-16 11:12:01 vim CopySpreadsheet.sh
+  313  Jun-07-16 11:19:28 ls
+  314  Jun-07-16 11:19:41 md5sum.exe -q V6.xlsx 
+  315  Jun-07-16 11:19:56 man md5sum 
+  316  Jun-07-16 11:20:48 vim UpdateAlliance.sh
+  317  Jun-07-16 11:22:01 man md5sum 
+  318  Jun-08-16 14:17:25 ls
+  319  Jun-08-16 14:17:52 ls Documents 
+  320  Jun-08-16 14:18:03 vim Documents 
+  321  Jun-08-16 14:18:30 cygstart .
+  322  Jun-08-16 14:19:36 ls
+  323  Jun-08-16 14:19:50 vim UnshareExcel.vbs
+  324  Jun-08-16 14:22:19 ls
+  325  Jun-08-16 14:22:57 cygstart UnshareExcel.vbs 
+  326  Jun-08-16 14:24:28 vim UnshareExcel.vbs 
+  327  Jun-08-16 14:25:19 cygstart UnshareExcel.vbs 
+  328  Jun-08-16 14:25:53 ls
+  329  Jun-08-16 14:25:57 vim UpdateAlliance.sh
+  330  Jun-08-16 14:34:10 bash UpdateAlliance.sh
+  331  Jun-08-16 14:35:42 vim UpdateAlliance.sh
+  332  Jun-08-16 14:36:34 bash UpdateAlliance.sh
+  333  Jun-08-16 14:37:02 bash UpdateAlliance.sh
+  334  Jun-08-16 14:40:11 vim UpdateAlliance.sh
+  335  Jun-08-16 14:41:15 bash UpdateAlliance.sh
+  336  Jun-08-16 14:41:51 vim UpdateAlliance.sh
+  337  Jun-08-16 14:41:58 bash UpdateAlliance.sh
+  338  Jun-08-16 14:42:38 bash UpdateAlliance.sh
+  339  Jun-08-16 14:43:45 vim UpdateAlliance.sh
+  340  Jun-08-16 14:43:58 bash UpdateAlliance.sh
+  341  Jun-08-16 14:44:40 bash UpdateAlliance.sh
+  342  Jun-08-16 14:45:03 vim UpdateAlliance.sh
+  343  Jun-08-16 14:45:35 vim UnshareExcel.vbs
+  344  Jun-08-16 14:46:10 bash UpdateAlliance.sh
+  345  Jun-08-16 14:49:06 vim UpdateAlliance.sh
+  346  Jun-08-16 14:49:19 bash UpdateAlliance.sh
+  347  Jun-08-16 14:49:27 vim UpdateAlliance.sh
+  348  Jun-08-16 14:49:41 bash UpdateAlliance.sh
+  349  Jun-08-16 14:49:45 vim UpdateAlliance.sh
+  350  Jun-08-16 14:50:22 bash UpdateAlliance.sh
+  351  Jun-08-16 14:50:27 vim UpdateAlliance.sh
+  352  Jun-08-16 14:51:10 bash UpdateAlliance.sh
+  353  Jun-08-16 14:51:27 bash UpdateAlliance.sh
+  354  Jun-08-16 14:52:11 vim UpdateAlliance.sh
+  355  Jun-08-16 14:52:19 bash UpdateAlliance.sh
+  356  Jun-08-16 14:52:47 vim UnshareExcel.vbs
+  357  Jun-08-16 14:53:45 vim UpdateAlliance.sh
+  358  Jun-08-16 14:53:52 bash UpdateAlliance.sh
+  359  Jun-08-16 14:54:19 bash UpdateAlliance.sh
+  360  Jun-08-16 14:54:21 bash UpdateAlliance.sh
+  361  Jun-08-16 14:54:22 bash UpdateAlliance.sh
+  362  Jun-08-16 14:56:14 bash UpdateAlliance.sh
+  363  Jun-08-16 14:57:48 vim UpdateAlliance.sh
+  364  Jun-07-16 09:53:03 cd //alliance2.gd-ais.com/DavWWWRoot/sites/3/WCS/WCS Shared Documents IPT WCS Software/TI14 APB15/Workarea/RAN PTR Effort
+  365  Jun-07-16 09:53:47 cd "//alliance2.gd-ais.com/DavWWWRoot/sites/3/WCS/WCS Shared Documents IPT WCS Software/TI14 APB15/Workarea/RAN PTR Effort"
+  366  Jun-07-16 09:53:49 ls
+  367  Jun-07-16 09:55:40 pwd
+  368  Jun-07-16 10:28:51 pwd
+  369  Jun-07-16 10:19:56 ls
+  370  Jun-07-16 10:20:25 blah=`md5sum.exe Test_file_with_Date_0526_11-02.txt`
+  371  Jun-07-16 10:20:29 echo $blah
+  372  Jun-07-16 10:21:00 gah=`md5sum.exe dotVim/.netrwhist`
+  373  Jun-07-16 10:21:03 echo $gah
+  374  Jun-07-16 10:21:17 man md5sum
+  375  Jun-07-16 10:23:18 blah=`md5sum.exe Functions.sh | awk '{ print $1 }'`
+  376  Jun-07-16 10:23:21 echo $blah
+  377  Jun-07-16 10:23:26 md5sum.exe Functions.sh 
+  378  Jun-07-16 10:24:51 ls
+  379  Jun-07-16 10:26:00 bash UpdateAlliance.sh
+  380  Jun-07-16 10:27:10 bash UpdateAlliance.sh
+  381  Jun-07-16 10:27:32 bash UpdateAlliance.sh
+  382  Jun-07-16 10:28:02 bash UpdateAlliance.sh
+  383  Jun-07-16 10:31:09 bash UpdateAlliance.sh
+  384  Jun-07-16 10:31:30 bash UpdateAlliance.sh
+  385  Jun-07-16 10:33:44 bash UpdateAlliance.sh
+  386  Jun-07-16 10:34:03 bash UpdateAlliance.sh
+  387  Jun-07-16 10:34:27 bash UpdateAlliance.sh
+  388  Jun-07-16 10:34:57 bash UpdateAlliance.sh
+  389  Jun-07-16 10:35:38 bash UpdateAlliance.sh
+  390  Jun-07-16 10:37:35 ls
+  391  Jun-07-16 10:37:38 touch blah
+  392  Jun-07-16 10:37:39 ls
+  393  Jun-07-16 10:37:41 rm blah
+  394  Jun-07-16 10:37:42 rm blah
+  395  Jun-07-16 10:37:44 rm -f blah
+  396  Jun-07-16 10:37:47 ls
+  397  Jun-07-16 10:38:02 md5sum.exe bldksf
+  398  Jun-07-16 10:39:33 bash UpdateAlliance.sh
+  399  Jun-07-16 10:39:39 bash UpdateAlliance.sh
+  400  Jun-07-16 10:41:44 ls
+  401  Jun-07-16 10:41:47 touch blah
+  402  Jun-07-16 10:41:49 ls dotVim/
+  403  Jun-07-16 10:41:53 touch dotVim/blah
+  404  Jun-07-16 10:41:55 ls dotVim/
+  405  Jun-07-16 10:42:01 rm -f blah dotVim/blah
+  406  Jun-07-16 10:42:02 ls
+  407  Jun-07-16 10:42:05 ls dotVim/
+  408  Jun-07-16 10:47:23 bash UpdateAlliance.sh
+  409  Jun-07-16 10:47:44 bash UpdateAlliance.sh
+  410  Jun-07-16 10:48:40 bash UpdateAlliance.sh
+  411  Jun-07-16 10:50:45 bash UpdateAlliance.sh
+  412  Jun-07-16 11:21:32 bash UpdateAlliance.sh
+  413  Jun-08-16 13:48:02 ls
+  414  Jun-08-16 13:48:09 cdDoc 
+  415  Jun-08-16 13:48:10 ls
+  416  Jun-08-16 13:48:12 cd PTRWorkSheet/
+  417  Jun-08-16 13:48:13 ls
+  418  Jun-08-16 13:48:17 cd Version_5/
+  419  Jun-08-16 13:48:18 ls
+  420  Jun-08-16 13:48:31 vim TestChanges.sh
+  421  Jun-08-16 14:03:20 ls
+  422  Jun-08-16 14:03:54 vim TestChange.vbs 
+  423  Jun-08-16 14:04:50 vim TestChange.vbs 
+  424  Jun-08-16 14:05:52 vim TestChange.vbs 
+  425  Jun-08-16 14:07:11 ls
+  426  Jun-08-16 14:07:15 vim Test.sh
+  427  Jun-08-16 14:07:40 ls
+  428  Jun-08-16 14:07:43 bash Test.sh
+  429  Jun-08-16 14:10:45 ls
+  430  Jun-08-16 14:10:51 vim Test.sh
+  431  Jun-08-16 14:11:03 ./Test.sh
+  432  Jun-08-16 14:11:07 bash Test.sh
+  433  Jun-08-16 14:11:21 ls
+  434  Jun-08-16 14:11:25 vim TestChange.vbs
+  435  Jun-08-16 14:11:47 bash Test.sh
+  436  Jun-08-16 14:12:52 vim TestChange.vbs
+  437  Jun-08-16 14:12:58 vim Test.sh
+  438  Jun-08-16 14:13:11 bash Test.sh
+  439  Jun-08-16 14:13:15 ls
+  440  Jun-08-16 14:13:19 vim blah.txt 
+  441  Jun-08-16 14:15:42 vim Test.sh
+  442  Jun-08-16 14:15:48 vim TestChange.vbs
+  443  Jun-08-16 14:16:26 ls
+  444  Jun-08-16 14:16:28 vim Test.sh
+  445  Jun-08-16 14:16:35 ls
+  446  Jun-08-16 14:16:38 rm blah.txt 
+  447  Jun-08-16 14:16:39 ls
+  448  Jun-08-16 14:16:43 bash Test.sh
+  449  Jun-08-16 14:16:46 ls
+  450  Jun-08-16 14:17:19 vim TestChange.vbs
+  451  Jun-08-16 14:20:50 ls ..
+  452  Jun-08-16 14:21:07 ls
+  453  Jun-08-16 14:21:12 ls ..
+  454  Jun-08-16 14:21:15 ls ../Compare
+  455  Jun-08-16 14:21:40 vim TestChange.vbs
+  456  Jun-08-16 14:22:42 vim Test.sh
+  457  Jun-08-16 14:27:29 cd
+  458  Jun-08-16 14:27:30 ls
+  459  Jun-08-16 14:27:35 vim UnshareExcel.vbs 
+  460  Jun-08-16 14:30:43 ls
+  461  Jun-08-16 14:30:58 cygstart.exe UnshareExcel.vbs
+  462  Jun-08-16 14:31:07 ls
+  463  Jun-08-16 14:31:12 vim UnshareExcel.vbs
+  464  Jun-08-16 14:31:44 cygstart.exe UnshareExcel.vbs
+  465  Jun-08-16 14:31:53 vim UnshareExcel.vbs
+  466  Jun-08-16 14:32:03 cygstart.exe UnshareExcel.vbs
+  467  Jun-09-16 14:20:51 cdDoc 
+  468  Jun-09-16 14:20:52 ls
+  469  Jun-09-16 14:20:57 cd virt-viewer_0.5.3.orig.tar/
+  470  Jun-09-16 14:20:57 ls
+  471  Jun-09-16 14:20:59 cd virt-viewer-0.5.3/
+  472  Jun-09-16 14:21:00 ls
+  473  Jun-09-16 15:19:33 ./configure
+  474  Jun-09-16 15:19:54 vim configure
+  475  Jun-09-16 15:20:30 bash configure
+  476  Jun-09-16 15:20:33 sh configure
+  477  Jun-09-16 15:20:56 vim configure
+  478  Jun-09-16 15:21:20 dos2unix.exe configure
+  479  Jun-09-16 15:21:31 bash configure
+  480  Jun-09-16 15:21:43 vim configure
+  481  Jun-09-16 15:22:13 bash configure
+  482  Jun-09-16 15:22:20 vim configure
+  483  Jun-09-16 15:27:23 bash configure
+  484  Jun-09-16 15:27:33 vim configure
+  485  Jun-09-16 15:27:58 bash configure
+  486  Jun-09-16 15:28:00 vim configure
+  487  Jun-09-16 15:28:10 bash configure
+  488  Jun-09-16 15:28:12 vim configure
+  489  Jun-09-16 15:29:02 bash configure
+  490  Jun-09-16 09:55:11 bash UpdateAlliance.sh
+  491  Jun-09-16 09:55:28 bash UpdateAlliance.sh
+  492  Jun-09-16 09:56:14 man bash
+  493  Jun-09-16 09:57:34 vim UpdateAlliance.sh
+  494  Jun-09-16 09:57:41 bash UpdateAlliance.sh
+  495  Jun-09-16 09:57:44 vim UpdateAlliance.sh
+  496  Jun-09-16 09:58:20 ls
+  497  Jun-09-16 09:58:23 pwd
+  498  Jun-09-16 09:58:30 vim UpdateAlliance.sh
+  499  Jun-10-16 10:17:19 vim UpdateAlliance.sh
+  500  Jun-10-16 10:17:27 ls
+  501  Jun-14-16 11:23:46 ls
+  502  Jun-14-16 11:24:08 vim UpdateAlliance.sh
+  503  Jun-14-16 11:25:30 vim UnshareExcel.vbs
+  504  Jun-14-16 11:25:43 ls
+  505  Jun-14-16 11:25:56 pwd
+  506  Jun-14-16 11:26:07 gnome-open .
+  507  Jun-14-16 11:27:27 vim UpdateAlliance.sh
+  508  Jun-14-16 11:27:48 bash UpdateAlliance.sh
+  509  Jun-14-16 11:28:01 vim UpdateAlliance.sh
+  510  Jun-14-16 11:31:31 bash UpdateAlliance.sh
+  511  Jun-14-16 11:32:29 vim UpdateAlliance.sh
+  512  Jun-14-16 11:38:21 bash UpdateAlliance.sh
+  513  Jun-14-16 11:38:25 vim UpdateAlliance.sh
+  514  Jun-14-16 11:38:45 bash UpdateAlliance.sh
+  515  Jun-14-16 11:38:51 vim UpdateAlliance.sh
+  516  Jun-14-16 11:39:07 bash UpdateAlliance.sh
+  517  Jun-14-16 11:40:05 vim UpdateAlliance.sh
+  518  Jun-14-16 11:43:47 bash UpdateAlliance.sh
+  519  Jun-14-16 11:43:48 ls
+  520  Jun-14-16 11:43:54 vim UnshareExcel.vbs
+  521  Jun-14-16 11:44:05 vim CopySpreadsheet.sh
+  522  Jun-14-16 11:44:11 vim .bashrc
+  523  Jun-14-16 11:46:15 . .bashrc
+  524  Jun-14-16 11:46:16 ls
+  525  Jun-14-16 11:48:01 vim Functions.sh 
+  526  Jun-14-16 11:48:11 vim Functions.sh 
+  527  Jun-14-16 11:59:51 . Functions.sh
+  528  Jun-14-16 11:59:56 . Functions.sh
+  529  Jun-14-16 11:59:57 . Functions.sh
+  530  Jun-14-16 11:59:59 vim Functions.sh 
+  531  Jun-14-16 12:00:16 . Functions.sh
+  532  Jun-14-16 12:00:38 CopyWorksheet2 6
+  533  Jun-14-16 12:00:51 CopyWorksheet2
+  534  Jun-14-16 12:01:01 vim Functions.sh 
+  535  Jun-14-16 12:01:28 . Functions.sh
+  536  Jun-14-16 12:01:30 CopyWorksheet2
+  537  Jun-14-16 12:01:42 vim Functions.sh 
+  538  Jun-14-16 12:01:52 . Functions.sh
+  539  Jun-14-16 12:01:54 CopyWorksheet2
+  540  Jun-14-16 12:02:01 vim Functions.sh 
+  541  Jun-14-16 12:04:26 . Functions.sh
+  542  Jun-14-16 12:04:29 CopyWorksheet2
+  543  Jun-14-16 12:04:33 vim Functions.sh 
+  544  Jun-14-16 12:05:33 . Functions.sh
+  545  Jun-14-16 12:05:34 CopyWorksheet2
+  546  Jun-14-16 12:05:44 vim Functions.sh 
+  547  Jun-14-16 12:06:04 . Functions.sh
+  548  Jun-14-16 12:06:05 CopyWorksheet2
+  549  Jun-14-16 12:06:09 vim Functions.sh 
+  550  Jun-14-16 12:06:37 . Functions.sh
+  551  Jun-14-16 12:06:39 CopyWorksheet2
+  552  Jun-14-16 12:06:52 CopyWorksheet2 6
+  553  Jun-14-16 12:07:44 vim Functions.sh 
+  554  Jun-14-16 12:19:04 . Functions.sh
+  555  Jun-14-16 12:19:10 CopyWorksheet2 4
+  556  Jun-14-16 12:19:42 echo $?
+  557  Jun-14-16 12:19:48 CopyWorksheet2 5
+  558  Jun-14-16 12:19:52 echo $?
+  559  Jun-14-16 12:20:13 vim Functions.sh 
+  560  Jun-14-16 12:22:28 . Functions.sh
+  561  Jun-14-16 12:22:31 CopyWorksheet2 5
+  562  Jun-14-16 12:28:20 vim Functions.sh 
+  563  Jun-14-16 12:29:15 . Functions.sh
+  564  Jun-14-16 12:29:17 CopyWorksheet2 5
+  565  Jun-14-16 12:29:29 CopyWorksheet2 5
+  566  Jun-14-16 12:29:38 CopyWorksheet2 4
+  567  Jun-14-16 12:29:45 vim Functions.sh 
+  568  Jun-14-16 12:34:36 . Functions.sh
+  569  Jun-14-16 12:34:39 CopyWorksheet2 4
+  570  Jun-14-16 12:34:55 vim Functions.sh 
+  571  Jun-14-16 12:35:24 vim .bashrc
+  572  Jun-14-16 12:37:00 . .bashrc
+  573  Jun-14-16 12:37:01 ls
+  574  Jun-14-16 12:37:13 CopyWorksheet 
+  575  Jun-14-16 12:37:26 CopyWorksheet 4
+  576  Jun-14-16 12:37:34 vim Functions.sh
+  577  Jun-14-16 12:39:57 ls
+  578  Jun-14-16 12:40:03 vim CopySpreadsheet.sh
+  579  Jun-14-16 12:40:59 vim CopySpreadsheet.sh
+  580  Jun-14-16 12:42:22 vim Functions.sh
+  581  Jun-14-16 17:22:47 time for i in `seq 1 100000`; do ((i++)); done
+  582  Jun-14-16 17:22:59 time for i in `seq 1 1000000`; do ((i++)); done
+  583  Jun-14-16 17:23:16 time for i in `seq 1 1000000`; do ((i++)); done
+  584  Jun-14-16 17:23:59 time for i in `seq 1 1000000`; do let "i=i+1"; done
+  585  Jun-14-16 17:32:49 echo $i
+  586  Jun-14-16 17:32:52 i=1
+  587  Jun-14-16 17:33:10 i=$((i+1))
+  588  Jun-14-16 17:33:12 echo $i
+  589  Jun-14-16 17:34:01 echo -n 'i=$((i+1))  '; { time for i in `seq 1 1000000`; do i=$((i+1)); done;} |& grep user
+  590  Jun-14-16 17:39:57 echo -n 'i=$((i+1))  '; { time for i in `seq 1 1000000`; do i=$((i+1)); done;} |& grep user | tee testTee
+  591  Jun-14-16 17:40:06 ls
+  592  Jun-14-16 17:40:09 vim testTee 
+  593  Jun-14-16 18:09:54 vim testTee 
+  594  Jun-14-16 18:10:21 vim testTee 
+  595  Jun-14-16 18:10:39 echo -n 'i=$((i+1))  ' && { time for i in `seq 1 1000000`; do i=$((i+1)); done;} |& grep user | tee testTee
+  596  Jun-14-16 18:11:27 vim testTee 
+  597  Jun-14-16 18:12:06 echo -n 'i=$((i+1))  ' >> testTee; { time for i in `seq 1 1000000`; do i=$((i+1)); done;} |& grep user | tee testTee
+  598  Jun-14-16 18:12:17 vim testTee 
+  599  Jun-14-16 18:12:22 man tee
+  600  Jun-14-16 18:12:36 echo -n 'i=$((i+1))  ' >> testTee; { time for i in `seq 1 1000000`; do i=$((i+1)); done;} |& grep user | tee -a testTee
+  601  Jun-14-16 18:12:48 vim testTee 
+  602  Jun-14-16 18:14:03 echo -n 'i=$((i+1))  ' >> testTee; { time for i in `seq 1 1000000`; do i=$((i+1)); done;} |& grep user >> testTee
+  603  Jun-14-16 18:14:10 vim testTee 
+  604  Jun-14-16 18:14:23 echo "" > testTee
+  605  Jun-14-16 18:14:26 vim testTee
+  606  Jun-15-16 14:02:06 ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep "*V7.xlsx"
+  607  Jun-15-16 14:02:14 ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/
+  608  Jun-15-16 14:02:27 ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep V7
+  609  Jun-15-16 14:03:11 ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/
+  610  Jun-15-16 14:04:40 ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep V7.xlsx
+  611  Jun-15-16 14:05:22 blah=`ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep V7.xlsx`
+  612  Jun-15-16 14:05:25 echo $blah
+  613  Jun-15-16 14:05:52 blah=6
+  614  Jun-15-16 14:06:10 ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep V$((blah+1)).xlsx
+  615  Jun-15-16 14:06:15 echo $blah
+  616  Jun-15-16 14:06:50 ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep V$((blah++)).xlsx
+  617  Jun-15-16 14:07:23 ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep V$((blah+1)).xlsx
+  618  Jun-15-16 14:07:29 echo $blah
+  619  Jun-15-16 14:09:39 if [ ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep V$((blah+1)).xlsx ]; then echo "hi"; fi
+  620  Jun-15-16 14:10:00 if [ `ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep V$((blah+1)).xlsx` ]; then echo "hi"; fi
+  621  Jun-15-16 14:10:24 if [[ `ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep V$((blah+1)).xlsx` ]]; then echo "hi"; fi
+  622  Jun-15-16 14:10:37 echo $blah
+  623  Jun-15-16 14:10:45 $((blah++))
+  624  Jun-15-16 14:10:57 ((blah++))
+  625  Jun-15-16 14:10:59 echo $blah
+  626  Jun-15-16 14:11:16 if [[ `ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep V$((blah+1)).xlsx` ]]; then echo "hi"; fi
+  627  Jun-15-16 14:13:01 ver="6"
+  628  Jun-15-16 14:13:39 until [[ `ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep V$((ver+1)).xlsx` ]]; do ((ver++)); done
+  629  Jun-15-16 14:13:43 echo $ver
+  630  Jun-15-16 14:13:54 while [[ `ls /cygdrive/y/WCS/Harpoon\ Phase\ RAN/ | grep V$((ver+1)).xlsx` ]]; do ((ver++)); done
+  631  Jun-15-16 14:13:59 echo $ver
+  632  Jun-15-16 14:37:35 unset blah
+  633  Jun-15-16 14:37:41 (($blah>3))
+  634  Jun-16-16 10:14:56 ls
+  635  Jun-16-16 10:15:00 vim CopySpreadsheet.sh
+  636  Jun-16-16 10:15:07 vim Functions.sh
+  637  Jun-16-16 10:26:15 local_copy='/cygdrive/c/Users/nathan.caron/Documents/PTRWorkSheet/Compare/Harpoon Phase RAN PTR List WIP V7.xlsx' 
+  638  Jun-16-16 10:26:53 current_worksheet='/cygdrive/y/WCS/Harpoon Phase RAN/'${filename}
+  639  Jun-16-16 10:27:21 current_worksheet='/cygdrive/y/WCS/Harpoon Phase RAN/Harpoon Phase RAN PTR List WIP V7.xlsx' 
+  640  Jun-16-16 10:27:29 echo $current_worksheet
+  641  Jun-16-16 10:27:33 echo $local_copy
+  642  Jun-16-16 10:28:17 bogus_copy='/cygdrive/c/Users/nathan.caron/Documents/Harpoon Phase RAN.xlsx'
+  643  Jun-16-16 10:28:41 [ -a "${local_copy}" ] && echo "exists"
+  644  Jun-16-16 10:29:31 [ -a "${local_copy}" ] && local_md5=`md5sum.exe "${local_copy}" | awk '{ print $1 }'` || local_md5="noFile"
+  645  Jun-16-16 10:29:40 echo $local_md5
+  646  Jun-16-16 10:30:17 [ -a "${bogus_copy}" ] && echo "exists"
+  647  Jun-16-16 10:30:53 [ -a "${bogus_copy}" ] && local_md5=`md5sum.exe "${local_copy}" | awk '{ print $1 }'` || local_md5="noFile"
+  648  Jun-16-16 10:30:56 echo $?
+  649  Jun-16-16 10:31:05 echo $local_md5
+  650  Jun-16-16 10:31:13 [ -a "${local_copy}" ] && local_md5=`md5sum.exe "${local_copy}" | awk '{ print $1 }'` || local_md5="noFile"
+  651  Jun-16-16 10:31:16 echo $local_md5
+  652  Jun-16-16 10:34:50 [ -e "${local_copy}" ] && local_md5=`md5sum.exe "${local_copy}" | awk '{ print $1 }'` || local_md5="noFile"
+  653  Jun-16-16 10:34:54 echo $local_md5
+  654  Jun-16-16 10:35:00 local_md5=ahh
+  655  Jun-16-16 10:35:02 echo $local_md5
+  656  Jun-16-16 10:35:04 [ -e "${local_copy}" ] && local_md5=`md5sum.exe "${local_copy}" | awk '{ print $1 }'` || local_md5="noFile"
+  657  Jun-16-16 10:35:05 echo $local_md5
+  658  Jun-16-16 10:35:58 [ -e "${current_worksheet}" ] && current_md5=`md5sum.exe "${current_worksheet}" | awk '{ print $1 }'` || current_md5="noFile"
+  659  Jun-16-16 10:36:04 echo $current_md5
+  660  Jun-16-16 10:36:41 [ $current_worksheet -eq $local_copy ] && echo "yup"
+  661  Jun-16-16 10:36:54 [[ $current_worksheet -eq $local_copy ]] && echo "yup"
+  662  Jun-16-16 10:38:42 [ "${current_worksheet}" == "${local_copy}" ] && echo "yup"
+  663  Jun-16-16 10:38:56 echo $current_worksheet
+  664  Jun-16-16 10:39:16 [ "${current_md5}" == "${local_md5}" ] && echo "yup"
+  665  Jun-16-16 10:39:23 [ "${current_md5}" -eq "${local_md5}" ] && echo "yup"
+  666  Jun-16-16 10:39:37 [[ "${current_md5}" -eq "${local_md5}" ]] && echo "yup"
+  667  Jun-16-16 10:40:39 cur=$current_md5
+  668  Jun-16-16 10:40:41 echo $cur
+  669  Jun-16-16 10:40:46 loc=$local_md5
+  670  Jun-16-16 10:40:48 echo $loc
+  671  Jun-16-16 10:41:04 [ "$cur" == "$loc" ]
+  672  Jun-16-16 10:41:07 echo $?
+  673  Jun-16-16 10:41:15 [ "$cur" == "$loc" ] && echo yes
+  674  Jun-16-16 10:41:21 [ "$cur" = "$loc" ] && echo yes
+  675  Jun-16-16 10:41:32 [ "$cur" -eq "$loc" ] && echo yes
+  676  Jun-16-16 10:41:43 [ "$cur" == "$loc" ] && echo yes
+  677  Jun-16-16 10:41:50 unset cur
+  678  Jun-16-16 10:41:52 [ "$cur" == "$loc" ] && echo yes
+  679  Jun-16-16 10:45:33 [ "$cur" == "$loc" ] && echo yes
+  680  Jun-16-16 10:45:41 [ "$cur" != "$loc" ] && echo yes
+  681  Jun-16-16 10:46:03 echo $cur
+  682  Jun-16-16 10:46:06 echo $loc
+  683  Jun-16-16 10:46:10 cur=$current_md5
+  684  Jun-16-16 10:46:12 echo $cur
+  685  Jun-16-16 10:47:43 [ "$cur" != "$loc" ] && echo not equal
+  686  Jun-16-16 10:48:02 cur=5
+  687  Jun-16-16 10:48:03 [ "$cur" != "$loc" ] && echo not equal
+  688  Jun-16-16 10:48:06 unset cur
+  689  Jun-16-16 10:48:07 [ "$cur" != "$loc" ] && echo not equal
+  690  Jun-16-16 10:48:22 [ $cur != $loc ] && echo not equal
+  691  Jun-16-16 10:48:27 cur=5
+  692  Jun-16-16 10:48:28 [ $cur != $loc ] && echo not equal
+  693  Jun-16-16 11:16:03 history | tee Hist0616.txt

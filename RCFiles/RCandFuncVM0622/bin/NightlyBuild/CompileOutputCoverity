@@ -1,0 +1,95 @@
+[ERROR] Defect merge key 7c04941b568a20e9f87050e02f61a8bb is not found in preview report, skipping its ownership assignment.
+/WC/N_160208/proj/WCS/WCWP/TacticController/TacticControllerApp/cpp/TacticSelectionHandler.cpp: In member function ‘bool TacticSelectionHandler::handleSelection(const PresetDomain::tacticSelection_m&)’:
+/WC/N_160208/proj/WCS/WCWP/TacticController/TacticControllerApp/cpp/TacticSelectionHandler.cpp:122:7: warning: ‘*((void*)& weapon_type +4)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       if(primitive_tactic.get().weapon_type() == weapon_type.get())
+       ^
+In file included from /WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/CommandWriters/AlmanacCommandWriter.h:18:0,
+                 from /WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/CommandWriters/AlmanacCommandWriter.cpp:13:
+/WC/N_160208/proj/WCS/deps/DataModel/cpp/WeaponPrepDomain.pb.h: In member function ‘bool AlmanacCommandWriter::generateAndSendCommand(const AlmanacStatusModel::Source&, const AlmanacStatusModel::CommandType&)’:
+/WC/N_160208/proj/WCS/deps/DataModel/cpp/WeaponPrepDomain.pb.h:5739:64: warning: ‘gpb_command’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   assert(::WeaponPrepDomain::AlmanacCommandType_e_IsValid(value));
+                                                                ^
+/WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/CommandWriters/AlmanacCommandWriter.cpp:45:44: note: ‘gpb_command’ was declared here
+     WeaponPrepDomain::AlmanacCommandType_e gpb_command;
+                                            ^
+In file included from /WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/CommandWriters/AlmanacCommandWriter.h:18:0,
+                 from /WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/CommandWriters/AlmanacCommandWriter.cpp:13:
+/WC/N_160208/proj/WCS/deps/DataModel/cpp/WeaponPrepDomain.pb.h:5762:63: warning: ‘gpb_source’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   assert(::WeaponPrepDomain::AlmanacSourceType_e_IsValid(value));
+                                                               ^
+/WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/CommandWriters/AlmanacCommandWriter.cpp:44:43: note: ‘gpb_source’ was declared here
+     WeaponPrepDomain::AlmanacSourceType_e gpb_source;
+                                           ^
+In file included from /WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/CommandWriters/AuresRequestWriter.h:20:0,
+                 from /WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/CommandWriters/AuresRequestWriter.cpp:13:
+/WC/N_160208/proj/WCS/deps/DataModel/cpp/PresetDomain.pb.h: In member function ‘bool AuresRequestWriter::sendRequest(const TubeCellDataGroupMapType&)’:
+/WC/N_160208/proj/WCS/deps/DataModel/cpp/PresetDomain.pb.h:8316:31: warning: ‘aures_element’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   _has_bits_[0] |= 0x00000020u;
+                               ^
+/WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/CommandWriters/AuresRequestWriter.cpp:120:51: note: ‘aures_element’ was declared here
+                     PresetDomain::AuresElement_t* aures_element;
+                                                   ^
+/WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/DataModels/PlatformConfigurationModel.cpp: In member function ‘virtual void PlatformConfigurationModel::processNewMessage()’:
+/WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/DataModels/PlatformConfigurationModel.cpp:97:26: warning: ‘*((void*)& cell_data +32)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 CellData cell_data;
+                          ^
+In file included from /WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/DataModels/PlatformConfigurationModel.cpp:13:0:
+/WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/DataModels/PlatformConfigurationModel.h:101:20: warning: ‘cell_data.PlatformConfigurationModel::CellData::radius’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     typedef struct CellData
+                    ^
+/WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/DataModels/PlatformConfigurationModel.cpp:97:26: note: ‘cell_data.PlatformConfigurationModel::CellData::radius’ was declared here
+                 CellData cell_data;
+                          ^
+/WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/DataModels/PrimitiveTacticsModel.cpp: In member function ‘virtual void PrimitiveTacticsModel::processNewMessage()’:
+/WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/DataModels/PrimitiveTacticsModel.cpp:83:43: warning: ‘*((void*)& fwp_time +4)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             boost::optional<unsigned int> fwp_time;
+                                           ^
+/WC/N_160208/proj/WCS/WCWP/WeaponPlanningDisplay/WeaponPlanningDisplayApp/cpp/DataModels/PrimitiveTacticsModel.cpp:82:43: warning: ‘*((void*)& tgt_time +4)’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             boost::optional<unsigned int> tgt_time;
+                                           ^
+126 C/C++ compilation units (99%) are ready for analysis
+/WC/N_160208/proj/WCS/WCWP/EngagementManager/EngagementManagerApp/cpp/EngagementEditor.cpp: In member function ‘void EngagementEditor::handleMoveWeapon(const string&, EngagementEditor::EngagementReferences&, bool, bool, std::string&, bool&, const PresetDomain::EditEngagement_t&)’:
+/WC/N_160208/proj/WCS/WCWP/EngagementManager/EngagementManagerApp/cpp/EngagementEditor.cpp:1173:50: warning: ‘weapon_index_1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 to_engagement.engagement_state());
+                                                  ^
+/WC/N_160208/proj/WCS/WCWP/EngagementManager/EngagementManagerApp/cpp/EngagementEditor.cpp:1173:50: warning: ‘from_state_1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+/WC/N_160208/proj/WCS/WCWP/EngagementManager/EngagementManagerApp/cpp/EngagementEditor.cpp:1173:50: warning: ‘from_id’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+[ERROR] Defect merge key d8566fda19b66dcbe42924cdadb1929e is not found in preview report, skipping its ownership assignment.
+[ERROR] Defect merge key 46d877778cb7ea6faaf2cf9f649a9fb2 is not found in preview report, skipping its ownership assignment.
+/WC/N_160208/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/AdcapDataProcessor.cpp: In member function ‘void AdcapDataProcessor::createAdcapOverlayScreenData(const OperatingPictureDomain::AdcapOverlayScreen_t&, long long unsigned int)’:
+/WC/N_160208/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/AdcapDataProcessor.cpp:299:25: error: ‘const class OperatingPictureDomain::AdcapOverlayScreenData_t’ has no member named ‘has_trial_enable_point’
+         if (screen_data.has_trial_enable_point())
+                         ^
+/WC/N_160208/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/cpp/AdcapDataProcessor.cpp:301:48: error: ‘const class OperatingPictureDomain::AdcapOverlayScreenData_t’ has no member named ‘trial_enable_point’
+             createTrialEnablePoint(screen_data.trial_enable_point(), location, primitive_mask);
+                                                ^
+make: *** [/WC/N_160208/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/obj/AdcapDataProcessor.o] Error 1
+[WARNING] Build command make DEPS_DIR=/proj/WCS/deps -C /WC/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/ dist exited with code 2. Please verify that the build completed successfully.
+ For more details, please look at: 
+    /WC/coverity-idirs/TempBuild/build-log.txt
+/WC/N_160208/proj/WCS/WCSS/DrawingController/DrawingControllerCommon/dist/libDrawingControllerCommon.so: undefined reference to `cg::Color::Color(char, char, char)'
+collect2: error: ld returned 1 exit status
+make: *** [/WC/N_160208/proj/WCS/WCSS/DrawingController/DrawingControllerApp/dist/DrawingControllerApp] Error 1
+[WARNING] Build command make DEPS_DIR=/proj/WCS/deps -C /WC/proj/WCS/WCSS/DrawingController/DrawingControllerApp/ dist exited with code 2. Please verify that the build completed successfully.
+ For more details, please look at: 
+    /WC/coverity-idirs/TempBuild/build-log.txt
+[ERROR] Defect merge key 7c04941b568a20e9f87050e02f61a8bb is not found in preview report, skipping its ownership assignment.
+In file included from /WC/N_160208/proj/WCS/WCSS/AuresAdaptor/AuresAdaptorApp/cpp/AuresProcessor.h:23:0,
+                 from /WC/N_160208/proj/WCS/WCSS/AuresAdaptor/AuresAdaptorApp/cpp/AuresProcessor.cpp:16:
+/WC/N_160208/proj/WCS/deps/DataModel/cpp/PresetDomain.pb.h: In member function ‘PresetDomain::AuresControlGroup_t AuresProcessor::generateControlGroup(AuresConfigurationManager::ptreeRef)’:
+/WC/N_160208/proj/WCS/deps/DataModel/cpp/PresetDomain.pb.h:8019:58: warning: ‘type’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+   assert(::PresetDomain::AuresControlType_e_IsValid(value));
+                                                          ^
+/WC/N_160208/proj/WCS/WCSS/AuresAdaptor/AuresAdaptorApp/cpp/AuresProcessor.cpp:459:35: note: ‘type’ was declared here
+  PresetDomain::AuresControlType_e type;
+                                   ^
+[ERROR] Defect merge key 7c04941b568a20e9f87050e02f61a8bb is not found in preview report, skipping its ownership assignment.
+[ERROR] Defect merge key 7c04941b568a20e9f87050e02f61a8bb is not found in preview report, skipping its ownership assignment.
+Failures:
+WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/
+WCS/WCSS/DrawingController/DrawingControllerApp/
+FailString:
+Failed to build /WC/proj/WCS/WCSS/DrawingController/DrawingControllerAdcapPlugin/
+Failed to build /WC/proj/WCS/WCSS/DrawingController/DrawingControllerApp/
+
+Total time elapsed:  191  minutes and  1  seconds

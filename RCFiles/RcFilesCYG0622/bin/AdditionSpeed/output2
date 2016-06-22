@@ -1,0 +1,8 @@
+i=$((i+1))  user	0m5.163s
+((i=i+1))   user	0m5.164s
+((i+=1))    user	0m4.774s
+((i++))     user	0m4.741s
+let "i=i+1" user	0m7.628s
+let "i+=1"  user	0m7.597s
+let "i++"   user	0m7.035s
+((++i))     user	0m4.539s

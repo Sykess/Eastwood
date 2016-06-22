@@ -1,0 +1,64 @@
+
+# My bashrc file.
+#
+# Maintainer: Nathan Caron
+# Last change: 2015 Dec 01
+#
+# To use it, copy it to:
+#     for Unix         : ~/.vimrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# GPG-Agent stuff
+# GET_TTY=$(tty)
+# export $GET_TTY
+# $HOME/.gnupg/gpg-agent-start.sh
+
+# User specific aliases and functions
+export PATH=$PATH:/usr/local/ccm/bin
+export PATH=$PATH:/usr/local/ccm_7.1/bin
+export PATH=$PATH:~/Documents/Sublime\ Text\ 2/
+export DEPS_DIR=/proj/WCS/deps
+export LD_LIBRARY_PATH=/proj/COTS/protobuf/current/lib
+alias mkj='make -j4 2> /dev/stdout > /dev/null'
+export TERM=xterm-256color
+export HISTTIMEFORMAT="%b-%d-%y %T "
+
+# cd variable exports
+export doc="/home/nathan.caron/Documents"
+export mydc="${doc}/DrawingControllerWork/DrawingController"
+export dc="/proj/WCS/WCSS/DrawingController"
+export deps="/proj/WCS/deps"
+export night="/home/nathan.caron/bin/NightlyBuild"
+export mybin="/home/nathan.caron/bin"
+
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
+# OLD PS1: [\u@\h \W]\$
+
+
+# Needed for Google Protocol Buffer programs to run properly
+# export LD_LIBRARY_PATH=/home/nathan.caron/Documents/GoogleProtoBuf/protobuf/src/.libs
+# (Note: Using COTS protobuf instead of local version now)
+
+# able to export blah="/proj/WCS/WCSS/DrawingController/" and then cd blah from anywhere (no $ needed)
+shopt -s cdable_vars
+
+
+# Source for cd --
+# source acd_func.sh # been combined into Functions.sh
+source Functions.sh
+
+
+
+# Aliases created through new-alias function:
+alias lrng='cd /home/nathan.caron/Documents/Learning'
+alias grep='grep --color'
+alias ffjenkins='firefox localhost:8080 &'
+alias la='ls -lah'
+alias vim="~/vim74/bin/vim"
+alias GD-SLOC='GDAIS_SLOCToolCL --run --project .'
+alias Coverity-wizard='/mnt/gluster_software/software/coverity/analysis-7.5.0/bin/cov-wizard > ~/Documents/Learning/CoverityLogs/TerminalOutput`date +%m%d` 2>&1 &'
+alias buildalldc="cd /proj/WCS/WCSS/DrawingController/DrawingControllerCommon && make && cd ../DrawingControllerHarpoonPlugin && make && cd ../DrawingControllerAdcapPlugin && make && cd ../DrawingControllerSsePlugin && make && cd ../DrawingControllerApp && make"
