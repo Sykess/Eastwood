@@ -353,7 +353,7 @@ Coverity-build()
     # Correct the output path for commit
     rm -rf /WC/coverity-idirs/TemporaryBuild/output ; mv /WC/coverity-idirs/TemporaryBuild/outputc /WC/coverity-idirs/TemporaryBuild/output
     # Commit
-    /mnt/gluster_WorkArea/software/coverity/analysis-7.5.0/bin/cov-commit-defects --dir /WC/coverity-idirs/TemporaryBuild --host coverity.wcs.gd-ais.com --port 8080 --user nathan.caron --password `Decrypt '@H!^HzkjKP0&*2M<><4$<>T$!$G%#G<<$4>>!$T<2<50E54923xdx7xnevaE"#$%!%#!$"'` --stream `python -c "temp = '$1'; print 'TI14A15_' + temp.split('/')[-2]"`
+    # Removed!
 }
 export -f Coverity-build
 
